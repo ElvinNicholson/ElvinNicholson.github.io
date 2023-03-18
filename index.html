@@ -1,7 +1,138 @@
 <!DOCTYPE html>
 <html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap" rel="stylesheet">
+
+    <link rel = "stylesheet" href = "CSS/Styles.css">
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+<!--Top Navigation Bar-->
+<div class="navbar">
+    <a href = "javascript:void(0)">Left</a>
+    <a href = "javascript:void(0)">Left</a>
+    <a href = "javascript:void(0)">Middle</a>
+    <a href = "javascript:void(0)">Right</a>
+    <a href = "javascript:void(0)">Right</a>
+</div>
+
+<div class="align_center top">
+    <p class="header">Hello, I'm Elvin Nicholson</p>
+    <p class="reduce_margin_top">I'm currently studying Games Technology in UWE Bristol</p>
+    <div class="text_bold text_grey reduce_margin_top">
+        <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+    </div>
+</div>
+
+<div class="section_header_align">
+    <div class="section_header">
+        <img src="Images/Game.png" alt="Game" class="section_header_image">
+        Games I've worked on
+    </div>
+</div>
+
+<!-- TicTako -->
+<div class="custom_border align_center">
+    <img src="Images/TicTako/TicTako.png" alt="TicTako" class="game_image">
+    <div class="game_header">TicTako</div>
+    <div class="game_box">Unity</div>
+    <div class="game_box">WebGL</div>
+    <div class="game_subheader">A Tic-Tac-Toe fan game of the VTuber group Hololive EN, also the first game I have ever released.</div>
+    <button id="button_tictako" class="game_button">Read more...</button>
+
+    <!-- Read More Section -->
+    <div id="more_tictako" class="game_read_more">
+        <p class="game_body">Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+
+        <!-- Screenshots -->
+        <div class="slideshow_container">
+            <div class="mySlides" name="mySlides_tictako">
+                <img src="Images/TicTako/Title.png" alt="Title" class="slide_image">
+            </div>
+            <div class="mySlides" name="mySlides_tictako">
+                <img src="Images/TicTako/Select.png" alt="Character Select" class="slide_image">
+            </div>
+            <div class="mySlides" name="mySlides_tictako">
+                <img src="Images/TicTako/Gameplay.png" alt="Gameplay" class="slide_image">
+            </div>
+            <div class="mySlides" name="mySlides_tictako">
+                <img src="Images/TicTako/Win.png" alt="Game Over" class="slide_image">
+            </div>
+
+            <a class="prev" onclick="plusSlides_tictako(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides_tictako(1)">&#10095;</a>
+        </div>
+        <div style="text-align:center">
+            <span class="dot" name="dot_tictako" onclick="currentSlide_tictako(1)"></span>
+            <span class="dot" name="dot_tictako" onclick="currentSlide_tictako(2)"></span>
+            <span class="dot" name="dot_tictako" onclick="currentSlide_tictako(3)"></span>
+            <span class="dot" name="dot_tictako" onclick="currentSlide_tictako(4)"></span>
+        </div>
+
+        <!-- Itch.Io Button -->
+        <form action="https://salty-pizza.itch.io/tictako" method="get" target="_blank">
+            <button class="game_button_itch">
+                Play Now
+                <img src="Images/itchio-textless-white.svg" alt="Itch.IO" class="game_button_image">
+            </button>
+        </form>
+    </div>
+</div>
+
+<!-- Race Unity -->
+<div class="custom_border align_center">
+    <img src="Images/Race_Unity/Thumbnail.png" alt="Race Creator Unity" class="game_image">
+    <div class="game_header">Unity Race Creator</div>
+    <div class="game_box">Unity</div>
+    <div class="game_subheader">A designer facing tool that allows for the creation of a racing system within Unity without having to code anything.</div>
+    <button id="button_race_unity" class="game_button">Read more...</button>
+
+    <!-- Read More Section -->
+    <div id="more_race_unity" class="game_read_more">
+        <p class="game_body">Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+
+        <!-- Screenshots -->
+        <div class="slideshow_container">
+            <div class="mySlides" name="mySlides_race_unity">
+                <img src="Images/TicTako/Title.png" alt="Title" class="slide_image">
+            </div>
+            <div class="mySlides" name="mySlides_race_unity">
+                <img src="Images/TicTako/Select.png" alt="Character Select" class="slide_image">
+            </div>
+            <div class="mySlides" name="mySlides_race_unity">
+                <img src="Images/TicTako/Gameplay.png" alt="Gameplay" class="slide_image">
+            </div>
+            <div class="mySlides" name="mySlides_race_unity">
+                <img src="Images/TicTako/Win.png" alt="Game Over" class="slide_image">
+            </div>
+
+            <a class="prev" onclick="plusSlides_tictako(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides_tictako(1)">&#10095;</a>
+        </div>
+        <div style="text-align:center">
+            <span class="dot" name="dot_race_unity" onclick="currentSlide_tictako(1)"></span>
+            <span class="dot" name="dot_race_unity" onclick="currentSlide_tictako(2)"></span>
+            <span class="dot" name="dot_race_unity" onclick="currentSlide_tictako(3)"></span>
+            <span class="dot" name="dot_race_unity" onclick="currentSlide_tictako(4)"></span>
+        </div>
+
+        <!-- Itch.Io Button -->
+        <form action="https://salty-pizza.itch.io/tictako" method="get" target="_blank">
+            <button class="game_button_itch">
+                Play Now
+                <img src="Images/itchio-textless-white.svg" alt="Itch.IO" class="game_button_image">
+            </button>
+        </form>
+    </div>
+</div>
+
+<script src = "Scripts/Scripts.js"></script>
 </body>
 </html>
