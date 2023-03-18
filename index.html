@@ -45,7 +45,7 @@
     <div class="game_box">Unity</div>
     <div class="game_box">WebGL</div>
     <div class="game_subheader">A Tic-Tac-Toe fan game of the VTuber group Hololive EN, also the first game I have ever released.</div>
-    <button id="button_tictako" class="game_button">Read more...</button>
+    <button id="button_tictako" class="game_button_read_more">Read more...</button>
 
     <!-- Read More Section -->
     <div id="more_tictako" class="game_read_more">
@@ -77,8 +77,8 @@
         </div>
 
         <!-- Itch.Io Button -->
-        <form action="https://salty-pizza.itch.io/tictako" method="get" target="_blank">
-            <button class="game_button_itch">
+        <form action="https://salty-pizza.itch.io/tictako" method="get" target="_blank" class="display_inline_block">
+            <button class="game_button game_button_itch">
                 Play Now
                 <img src="Images/itchio-textless-white.svg" alt="Itch.IO" class="game_button_image">
             </button>
@@ -92,7 +92,7 @@
     <div class="game_header">Unity Race Creator</div>
     <div class="game_box">Unity</div>
     <div class="game_subheader">A designer facing tool that allows for the creation of a racing system within Unity without having to code anything.</div>
-    <button id="button_race_unity" class="game_button">Read more...</button>
+    <button id="button_race_unity" class="game_button_read_more">Read more...</button>
 
     <!-- Read More Section -->
     <div id="more_race_unity" class="game_read_more">
@@ -101,33 +101,41 @@
         <!-- Screenshots -->
         <div class="slideshow_container">
             <div class="mySlides" name="mySlides_race_unity">
-                <img src="Images/TicTako/Title.png" alt="Title" class="slide_image">
+                <img src="Images/Race_Unity/Scene.png" alt="Title" class="slide_image">
             </div>
             <div class="mySlides" name="mySlides_race_unity">
-                <img src="Images/TicTako/Select.png" alt="Character Select" class="slide_image">
+                <img src="Images/Race_Unity/Gameplay.png" alt="Character Select" class="slide_image">
             </div>
             <div class="mySlides" name="mySlides_race_unity">
-                <img src="Images/TicTako/Gameplay.png" alt="Gameplay" class="slide_image">
+                <img src="Images/Race_Unity/Inspector.png" alt="Gameplay" class="slide_image">
             </div>
             <div class="mySlides" name="mySlides_race_unity">
-                <img src="Images/TicTako/Win.png" alt="Game Over" class="slide_image">
+                <img src="Images/Race_Unity/Custom_Window.png" alt="Game Over" class="slide_image">
             </div>
 
-            <a class="prev" onclick="plusSlides_tictako(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides_tictako(1)">&#10095;</a>
+            <a class="prev" onclick="plusSlides_race_unity(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides_race_unity(1)">&#10095;</a>
         </div>
         <div style="text-align:center">
-            <span class="dot" name="dot_race_unity" onclick="currentSlide_tictako(1)"></span>
-            <span class="dot" name="dot_race_unity" onclick="currentSlide_tictako(2)"></span>
-            <span class="dot" name="dot_race_unity" onclick="currentSlide_tictako(3)"></span>
-            <span class="dot" name="dot_race_unity" onclick="currentSlide_tictako(4)"></span>
+            <span class="dot" name="dot_race_unity" onclick="currentSlide_race_unity(1)"></span>
+            <span class="dot" name="dot_race_unity" onclick="currentSlide_race_unity(2)"></span>
+            <span class="dot" name="dot_race_unity" onclick="currentSlide_race_unity(3)"></span>
+            <span class="dot" name="dot_race_unity" onclick="currentSlide_race_unity(4)"></span>
         </div>
 
-        <!-- Itch.Io Button -->
-        <form action="https://salty-pizza.itch.io/tictako" method="get" target="_blank">
-            <button class="game_button_itch">
-                Play Now
-                <img src="Images/itchio-textless-white.svg" alt="Itch.IO" class="game_button_image">
+        <!-- Git Button -->
+        <form action="https://github.com/ElvinNicholson/GEA-Unity-Race.git" method="get" target="_blank" class="display_inline_block">
+            <button class="game_button game_button_git">
+                GitHub
+                <img src="Images/github-mark.svg" alt="GitHub" class="game_button_image">
+            </button>
+        </form>
+
+        <!-- YouTube Button -->
+        <form action="https://youtube.com/watch?v=fpi95WXfrsg&si=EnSIkaIECMiOmarE" method="get" target="_blank" class="display_inline_block">
+            <button class="game_button game_button_youtube">
+                YouTube
+                <img src="Images/youtube_social_icon_dark.png" alt="YouTube" class="game_button_image">
             </button>
         </form>
     </div>

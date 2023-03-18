@@ -53,6 +53,10 @@ body {
     width: 70%;
 }
 
+.display_inline_block {
+    display: inline-block;
+}
+
 .text_bold {
     font-weight: bold;
 }
@@ -129,7 +133,7 @@ body {
     color: white;
 }
 
-.game_button {
+.game_button_read_more {
     border-radius: 10px;
     background: white;
     border: 2px solid black;
@@ -146,15 +150,13 @@ body {
     transition-duration: 0.2s;
 }
 
-.game_button:hover {
+.game_button_read_more:hover {
     background: black;
     color: white;
 }
 
-.game_button_itch {
+.game_button {
     border-radius: 10px;
-    border: 2px solid #fa5c5c;
-    background: #fa5c5c;
     display: inline-block;
     padding: 8px 16px;
     margin: 20px 0;
@@ -162,14 +164,44 @@ body {
     text-align: center;
     font-size: 20px;
     font-weight: bold;
-    color: white;
 
     cursor: pointer;
     transition-duration: 0.2s;
 }
-.game_button_itch:hover{
+
+.game_button_itch {
+    border: 2px solid #fa5c5c;
+    background: #fa5c5c;
+
+    color: white;
+}
+.game_button_itch:hover {
     background: white;
     color: #fa5c5c;
+}
+
+.game_button_git {
+    border: 2px solid #171515;
+    background: #171515;
+
+    color: white;
+}
+
+.game_button_git:hover {
+    background: white;
+    color: #171515;
+}
+
+.game_button_youtube {
+    border: 2px solid #EA3223;
+    background: #EA3223;
+
+    color: white;
+}
+
+.game_button_youtube:hover {
+    background: white;
+    color: #EA3223;
 }
 
 .game_button_image {
@@ -178,8 +210,16 @@ body {
     filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(119deg) brightness(103%) contrast(102%);
 }
 
-.game_button_itch:hover .game_button_image{
+.game_button_itch:hover .game_button_image {
     filter: invert(54%) sepia(81%) saturate(2977%) hue-rotate(325deg) brightness(100%) contrast(95%);
+}
+
+.game_button_git:hover .game_button_image {
+    filter: none;
+}
+
+.game_button_youtube:hover .game_button_image {
+    filter: invert(30%) sepia(61%) saturate(4504%) hue-rotate(348deg) brightness(93%) contrast(98%);
 }
 
 .game_read_more {

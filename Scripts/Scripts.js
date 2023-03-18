@@ -6,7 +6,7 @@ function toggle_read_more(read_more_element) {
     document.getElementById(read_more_element).classList.toggle("show");
 }
 
-// TicTako Slideshow
+// TICTAKO SLIDESHOW
 let slideIndex_tictako = 1;
 showSlides_tictako(slideIndex_tictako);
 
@@ -34,4 +34,34 @@ function showSlides_tictako(n) {
     }
     slides[slideIndex_tictako-1].style.display = "block";
     dots[slideIndex_tictako-1].className += " active";
+}
+
+// RACE UNITY SLIDESHOW
+let slideIndex_race_unity = 1;
+showSlides_race_unity(slideIndex_race_unity);
+
+// Next/previous controls
+function plusSlides_race_unity(n) {
+    showSlides_race_unity(slideIndex_race_unity += n);
+}
+
+// Thumbnail image controls
+function currentSlide_race_unity(n) {
+    showSlides_race_unity(slideIndex_race_unity = n);
+}
+
+function showSlides_race_unity(n) {
+    let i;
+    let slides = document.getElementsByName("mySlides_race_unity");
+    let dots = document.getElementsByName("dot_race_unity");
+    if (n > slides.length) {slideIndex_race_unity = 1}
+    if (n < 1) {slideIndex_race_unity = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex_race_unity-1].style.display = "block";
+    dots[slideIndex_race_unity-1].className += " active";
 }
