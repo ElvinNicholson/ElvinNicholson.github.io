@@ -16,13 +16,12 @@
 
 <!--Top Navigation Bar-->
 <div class="navbar">
-    <a href = "javascript:void(0)">Left</a>
-    <a href = "javascript:void(0)">Left</a>
-    <a href = "javascript:void(0)">Middle</a>
-    <a href = "javascript:void(0)">Right</a>
-    <a href = "javascript:void(0)">Right</a>
+    <a href = "#Home">Home</a>
+    <a href = "#Games">Games</a>
+    <a href = "#Skills">Skills</a>
 </div>
 
+<a class="anchor" id="Home"></a>
 <div class="align_center top">
     <p class="header">Hello, I'm Elvin Nicholson</p>
     <p class="reduce_margin_top">I'm currently studying Games Technology in UWE Bristol</p>
@@ -31,6 +30,7 @@
     </div>
 </div>
 
+<a class="anchor" id="Games"></a>
 <div class="section_header_align">
     <div class="section_header">
         <img src="Images/Game.png" alt="Game" class="section_header_image">
@@ -42,6 +42,7 @@
 <div class="custom_border align_center">
     <img src="Images/TicTako/TicTako.png" alt="TicTako" class="game_image">
     <div class="game_header">TicTako</div>
+    <div class="game_box">C#</div>
     <div class="game_box">Unity</div>
     <div class="game_box">WebGL</div>
     <div class="game_subheader">A Tic-Tac-Toe fan game of the VTuber group Hololive EN, also the first game I have ever released.</div>
@@ -83,6 +84,8 @@
                 <img src="Images/itchio-textless-white.svg" alt="Itch.IO" class="game_button_image">
             </button>
         </form>
+
+
     </div>
 </div>
 
@@ -90,6 +93,7 @@
 <div class="custom_border align_center">
     <img src="Images/Race_Unity/Thumbnail.png" alt="Race Creator Unity" class="game_image">
     <div class="game_header">Unity Race Creator</div>
+    <div class="game_box">C#</div>
     <div class="game_box">Unity</div>
     <div class="game_subheader">A designer facing tool that allows for the creation of a racing system within Unity without having to code anything.</div>
     <button id="button_race_unity" class="game_button_read_more">Read more...</button>
@@ -132,7 +136,263 @@
         </form>
 
         <!-- YouTube Button -->
-        <form action="https://youtube.com/watch?v=fpi95WXfrsg&si=EnSIkaIECMiOmarE" method="get" target="_blank" class="display_inline_block">
+        <form action="https://youtu.be/fpi95WXfrsg" method="get" target="_blank" class="display_inline_block">
+            <button class="game_button game_button_youtube">
+                YouTube
+                <img src="Images/youtube_social_icon_dark.png" alt="YouTube" class="game_button_image">
+            </button>
+        </form>
+
+        <!-- Documents Button -->
+        <form action="https://drive.google.com/file/d/1Q_9QjbVKZhqRwVOD7_r1lmmlruCbvKvv/view?usp=share_link" method="get" target="_blank" class="display_inline_block">
+            <button class="game_button game_button_normal">
+                Report Document
+            </button>
+        </form>
+    </div>
+</div>
+
+<!-- Race RayLib -->
+<a class="anchor" id="RayLib_Race_Creator"></a>
+<div class="custom_border align_center">
+    <img src="Images/Race_RayLib/Thumbnail.png" alt="Race Creator RayLib" class="game_image">
+    <div class="game_header">RayLib Race Creator</div>
+    <div class="game_box">C++</div>
+    <div class="game_box">RayLib</div>
+    <div class="game_subheader">A system that allows for the creation of a racing system within RayLib through the
+        <a href="#JSON_Level_Editor" class="game_link">JSON Level Editor</a>.
+    </div>
+    <button id="button_race_raylib" class="game_button_read_more">Read more...</button>
+
+    <!-- Read More Section -->
+    <div id="more_race_raylib" class="game_read_more">
+        <p class="game_body">Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+
+        <!-- Screenshots -->
+        <div class="slideshow_container">
+            <div class="mySlides" name="mySlides_race_raylib">
+                <img src="Images/Race_RayLib/Gameplay.png" alt="Title" class="slide_image">
+            </div>
+            <div class="mySlides" name="mySlides_race_raylib">
+                <img src="Images/Race_RayLib/Scoreboard.png" alt="Character Select" class="slide_image">
+            </div>
+            <div class="mySlides" name="mySlides_race_raylib">
+                <img src="Images/Race_RayLib/Level2.png" alt="Gameplay" class="slide_image">
+            </div>
+
+            <a class="prev" onclick="plusSlides_race_raylib(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides_race_raylib(1)">&#10095;</a>
+        </div>
+        <div style="text-align:center">
+            <span class="dot" name="dot_race_raylib" onclick="currentSlide_race_raylib(1)"></span>
+            <span class="dot" name="dot_race_raylib" onclick="currentSlide_race_raylib(2)"></span>
+            <span class="dot" name="dot_race_raylib" onclick="currentSlide_race_raylib(3)"></span>
+        </div>
+
+        <!-- Git Button -->
+        <form action="https://github.com/ElvinNicholson/GEA-Raylib-Race.git" method="get" target="_blank" class="display_inline_block">
+            <button class="game_button game_button_git">
+                GitHub
+                <img src="Images/github-mark.svg" alt="GitHub" class="game_button_image">
+            </button>
+        </form>
+
+        <!-- YouTube Button -->
+        <form action="https://youtu.be/_8vnQRKcF40" method="get" target="_blank" class="display_inline_block">
+            <button class="game_button game_button_youtube">
+                YouTube
+                <img src="Images/youtube_social_icon_dark.png" alt="YouTube" class="game_button_image">
+            </button>
+        </form>
+
+        <!-- Documents Button -->
+        <form action="https://drive.google.com/file/d/1Q_9QjbVKZhqRwVOD7_r1lmmlruCbvKvv/view?usp=share_link" method="get" target="_blank" class="display_inline_block">
+            <button class="game_button game_button_normal">
+                Report Document
+            </button>
+        </form>
+    </div>
+</div>
+
+<!-- JSON Level Editor -->
+<a class="anchor" id="JSON_Level_Editor"></a>
+<div class="custom_border align_center">
+    <img src="Images/Race_Editor/Thumbnail.png" alt="JSON Level Editor" class="game_image">
+    <div class="game_header">JSON Level Editor</div>
+    <div class="game_box">C#</div>
+    <div class="game_box">XAML</div>
+    <div class="game_box">WPF</div>
+    <div class="game_subheader">An application made using WPF to easily create and modify a race for the
+        <a href="#RayLib_Race_Creator" class="game_link">RayLib Race Creator</a>.
+    </div>
+    <button id="button_race_editor" class="game_button_read_more">Read more...</button>
+
+    <!-- Read More Section -->
+    <div id="more_race_editor" class="game_read_more">
+        <p class="game_body">Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+
+        <!-- Screenshots -->
+        <div class="slideshow_container">
+            <div class="mySlides" name="mySlides_race_editor">
+                <img src="Images/Race_Editor/Editor.png" alt="Title" class="slide_image">
+            </div>
+            <div class="mySlides" name="mySlides_race_editor">
+                <img src="Images/Race_Editor/Race.png" alt="Character Select" class="slide_image">
+            </div>
+            <div class="mySlides" name="mySlides_race_editor">
+                <img src="Images/Race_Editor/Checkpoints.png" alt="Gameplay" class="slide_image">
+            </div>
+            <div class="mySlides" name="mySlides_race_editor">
+                <img src="Images/Race_Editor/Bots.png" alt="Gameplay" class="slide_image">
+            </div>
+
+            <a class="prev" onclick="plusSlides_race_editor(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides_race_editor(1)">&#10095;</a>
+        </div>
+        <div style="text-align:center">
+            <span class="dot" name="dot_race_editor" onclick="currentSlide_race_editor(1)"></span>
+            <span class="dot" name="dot_race_editor" onclick="currentSlide_race_editor(2)"></span>
+            <span class="dot" name="dot_race_editor" onclick="currentSlide_race_editor(3)"></span>
+            <span class="dot" name="dot_race_editor" onclick="currentSlide_race_editor(4)"></span>
+        </div>
+
+        <!-- Git Button -->
+        <form action="https://github.com/ElvinNicholson/Race-Level-Editor.git" method="get" target="_blank" class="display_inline_block">
+            <button class="game_button game_button_git">
+                GitHub
+                <img src="Images/github-mark.svg" alt="GitHub" class="game_button_image">
+            </button>
+        </form>
+
+        <!-- YouTube Button -->
+        <form action="https://youtu.be/4vfhRrgaSJ0" method="get" target="_blank" class="display_inline_block">
+            <button class="game_button game_button_youtube">
+                YouTube
+                <img src="Images/youtube_social_icon_dark.png" alt="YouTube" class="game_button_image">
+            </button>
+        </form>
+
+        <!-- Documents Button -->
+        <form action="https://drive.google.com/file/d/1Q_9QjbVKZhqRwVOD7_r1lmmlruCbvKvv/view?usp=share_link" method="get" target="_blank" class="display_inline_block">
+            <button class="game_button game_button_normal">
+                Report Document
+            </button>
+        </form>
+    </div>
+</div>
+
+<!-- Get Therapy -->
+<div class="custom_border align_center">
+    <img src="Images/GetTherapy/Thumbnail.png" alt="Platformer" class="game_image">
+    <div class="game_header">Get Therapy</div>
+    <div class="game_box">C#</div>
+    <div class="game_box">Unity</div>
+    <div class="game_box">Mobile</div>
+    <div class="game_subheader">A dialogue based mobile puzzle game that touches on the complexities of therapy in a lighter tone.</div>
+    <button id="button_get_therapy" class="game_button_read_more">Read more...</button>
+
+    <!-- Read More Section -->
+    <div id="more_get_therapy" class="game_read_more">
+        <p class="game_body">Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+
+        <!-- Screenshots -->
+        <div class="slideshow_container">
+            <div class="mySlides" name="mySlides_get_therapy">
+                <img src="Images/GetTherapy/Select.png" alt="Title" class="slide_image">
+            </div>
+            <div class="mySlides" name="mySlides_get_therapy">
+                <img src="Images/GetTherapy/Green.png" alt="Character Select" class="slide_image">
+            </div>
+            <div class="mySlides" name="mySlides_get_therapy">
+                <img src="Images/GetTherapy/Red.png" alt="Gameplay" class="slide_image">
+            </div>
+            <div class="mySlides" name="mySlides_get_therapy">
+                <img src="Images/GetTherapy/Tittle.png" alt="Gameplay" class="slide_image">
+            </div>
+
+            <a class="prev" onclick="plusSlides_get_therapy(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides_get_therapy(1)">&#10095;</a>
+        </div>
+        <div style="text-align:center">
+            <span class="dot" name="dot_get_therapy" onclick="currentSlide_get_therapy(1)"></span>
+            <span class="dot" name="dot_get_therapy" onclick="currentSlide_get_therapy(2)"></span>
+            <span class="dot" name="dot_get_therapy" onclick="currentSlide_get_therapy(3)"></span>
+            <span class="dot" name="dot_get_therapy" onclick="currentSlide_get_therapy(4)"></span>
+        </div>
+
+        <!-- Git Button -->
+        <form action="https://github.com/STORMY14/Get-Therapy-GDE-Impact-Crater.git" method="get" target="_blank" class="display_inline_block">
+            <button class="game_button game_button_git">
+                GitHub
+                <img src="Images/github-mark.svg" alt="GitHub" class="game_button_image">
+            </button>
+        </form>
+
+        <!-- YouTube Button -->
+        <form action="https://youtu.be/6OeRsyR1oRo" method="get" target="_blank" class="display_inline_block">
+            <button class="game_button game_button_youtube">
+                YouTube
+                <img src="Images/youtube_social_icon_dark.png" alt="YouTube" class="game_button_image">
+            </button>
+        </form>
+
+        <!-- Documents Button -->
+        <form action="https://drive.google.com/file/d/1m-yuZ3TzS8-7y2ArEIFldmL6DTDzUjS7/view?usp=share_link" method="get" target="_blank" class="display_inline_block">
+            <button class="game_button game_button_normal">
+                Documentation
+            </button>
+        </form>
+    </div>
+</div>
+
+<!-- Pacman -->
+<div class="custom_border align_center">
+    <img src="Images/Pacman/Thumbnail.png" alt="PacMan" class="game_image">
+    <div class="game_header">PacMan in C++</div>
+    <div class="game_box">C++</div>
+    <div class="game_box">SFML</div>
+    <div class="game_subheader">A faithful recreation of the original PacMan game in C++ using SFML.</div>
+    <button id="button_pacman" class="game_button_read_more">Read more...</button>
+
+    <!-- Read More Section -->
+    <div id="more_pacman" class="game_read_more">
+        <p class="game_body">Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+
+        <!-- Screenshots -->
+        <div class="slideshow_container">
+            <div class="mySlides" name="mySlides_pacman">
+                <img src="Images/Pacman/Start.png" alt="Title" class="slide_image">
+            </div>
+            <div class="mySlides" name="mySlides_pacman">
+                <img src="Images/Pacman/Gameplay.png" alt="Character Select" class="slide_image">
+            </div>
+            <div class="mySlides" name="mySlides_pacman">
+                <img src="Images/Pacman/Map2.png" alt="Gameplay" class="slide_image">
+            </div>
+            <div class="mySlides" name="mySlides_pacman">
+                <img src="Images/Pacman/Title.png" alt="Gameplay" class="slide_image">
+            </div>
+
+            <a class="prev" onclick="plusSlides_pacman(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides_pacman(1)">&#10095;</a>
+        </div>
+        <div style="text-align:center">
+            <span class="dot" name="dot_pacman" onclick="currentSlide_pacman(1)"></span>
+            <span class="dot" name="dot_pacman" onclick="currentSlide_pacman(2)"></span>
+            <span class="dot" name="dot_pacman" onclick="currentSlide_pacman(3)"></span>
+            <span class="dot" name="dot_pacman" onclick="currentSlide_pacman(4)"></span>
+        </div>
+
+        <!-- Git Button -->
+        <form action="https://github.com/ElvinNicholson/MGIC-Pacman.git" method="get" target="_blank" class="display_inline_block">
+            <button class="game_button game_button_git">
+                GitHub
+                <img src="Images/github-mark.svg" alt="GitHub" class="game_button_image">
+            </button>
+        </form>
+
+        <!-- YouTube Button -->
+        <form action="https://youtu.be/IAtxsJEs7jI" method="get" target="_blank" class="display_inline_block">
             <button class="game_button game_button_youtube">
                 YouTube
                 <img src="Images/youtube_social_icon_dark.png" alt="YouTube" class="game_button_image">
@@ -140,6 +400,287 @@
         </form>
     </div>
 </div>
+
+<!-- Platformer -->
+<div class="custom_border align_center">
+    <img src="Images/Platformer/Thumbnail.png" alt="Platformer" class="game_image">
+    <div class="game_header">Platformer Game in C++</div>
+    <div class="game_box">C++</div>
+    <div class="game_box">SFML</div>
+    <div class="game_subheader">A platformer game with multiple levels made in C++ using SFML.</div>
+    <button id="button_platformer" class="game_button_read_more">Read more...</button>
+
+    <!-- Read More Section -->
+    <div id="more_platformer" class="game_read_more">
+        <p class="game_body">Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+
+        <!-- Screenshots -->
+        <div class="slideshow_container">
+            <div class="mySlides" name="mySlides_platformer">
+                <img src="Images/Platformer/Tutorial.png" alt="Title" class="slide_image">
+            </div>
+            <div class="mySlides" name="mySlides_platformer">
+                <img src="Images/Platformer/Wall_Slide.png" alt="Character Select" class="slide_image">
+            </div>
+            <div class="mySlides" name="mySlides_platformer">
+                <img src="Images/Platformer/Win.png" alt="Gameplay" class="slide_image">
+            </div>
+            <div class="mySlides" name="mySlides_platformer">
+                <img src="Images/Platformer/Pause.png" alt="Gameplay" class="slide_image">
+            </div>
+            <div class="mySlides" name="mySlides_platformer">
+                <img src="Images/Platformer/Title.png" alt="Gameplay" class="slide_image">
+            </div>
+
+            <a class="prev" onclick="plusSlides_platformer(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides_platformer(1)">&#10095;</a>
+        </div>
+        <div style="text-align:center">
+            <span class="dot" name="dot_platformer" onclick="currentSlide_platformer(1)"></span>
+            <span class="dot" name="dot_platformer" onclick="currentSlide_platformer(2)"></span>
+            <span class="dot" name="dot_platformer" onclick="currentSlide_platformer(3)"></span>
+            <span class="dot" name="dot_platformer" onclick="currentSlide_platformer(4)"></span>
+            <span class="dot" name="dot_platformer" onclick="currentSlide_platformer(5)"></span>
+        </div>
+
+        <!-- Git Button -->
+        <form action="https://github.com/ElvinNicholson/Frog-Jump-Platformer.git" method="get" target="_blank" class="display_inline_block">
+            <button class="game_button game_button_git">
+                GitHub
+                <img src="Images/github-mark.svg" alt="GitHub" class="game_button_image">
+            </button>
+        </form>
+
+        <!-- YouTube Button -->
+        <form action="https://youtu.be/DLMXL6TkRMs" method="get" target="_blank" class="display_inline_block">
+            <button class="game_button game_button_youtube">
+                YouTube
+                <img src="Images/youtube_social_icon_dark.png" alt="YouTube" class="game_button_image">
+            </button>
+        </form>
+    </div>
+</div>
+
+<!-- Chatroom -->
+<div class="custom_border align_center">
+    <img src="Images/Chatroom/Thumbnail.png" alt="Platformer" class="game_image">
+    <div class="game_header">Chatroom in C++</div>
+    <div class="game_box">C++</div>
+    <div class="game_box">SFML</div>
+    <div class="game_box">Networking</div>
+    <div class="game_subheader">A simple online chatroom with multiple channels made in C++ using SFML.</div>
+    <button id="button_chatroom" class="game_button_read_more">Read more...</button>
+
+    <!-- Read More Section -->
+    <div id="more_chatroom" class="game_read_more">
+        <p class="game_body">Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+
+        <!-- Screenshots -->
+        <div class="slideshow_container">
+            <div class="mySlides" name="mySlides_chatroom">
+                <img src="Images/Chatroom/Chat.png" alt="Title" class="slide_image">
+            </div>
+            <div class="mySlides" name="mySlides_chatroom">
+                <img src="Images/Chatroom/Login.png" alt="Character Select" class="slide_image">
+            </div>
+
+            <a class="prev" onclick="plusSlides_chatroom(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides_chatroom(1)">&#10095;</a>
+        </div>
+        <div style="text-align:center">
+            <span class="dot" name="dot_chatroom" onclick="currentSlide_chatroom(1)"></span>
+            <span class="dot" name="dot_chatroom" onclick="currentSlide_chatroom(2)"></span>
+        </div>
+
+        <!-- Git Button -->
+        <form action="https://github.com/ElvinNicholson/MGIC-Chatroom.git" method="get" target="_blank" class="display_inline_block">
+            <button class="game_button game_button_git">
+                GitHub
+                <img src="Images/github-mark.svg" alt="GitHub" class="game_button_image">
+            </button>
+        </form>
+
+        <!-- YouTube Button -->
+        <form action="https://youtu.be/eRAhS73csP8" method="get" target="_blank" class="display_inline_block">
+            <button class="game_button game_button_youtube">
+                YouTube
+                <img src="Images/youtube_social_icon_dark.png" alt="YouTube" class="game_button_image">
+            </button>
+        </form>
+    </div>
+</div>
+
+<!-- Pong -->
+<div class="custom_border align_center">
+    <img src="Images/Pong/Thumbnail.png" alt="Platformer" class="game_image">
+    <div class="game_header">Pong in C++</div>
+    <div class="game_box">C++</div>
+    <div class="game_box">SFML</div>
+    <div class="game_subheader">A classic Pong game made in C++ using SFML.</div>
+    <button id="button_pong" class="game_button_read_more">Read more...</button>
+
+    <!-- Read More Section -->
+    <div id="more_pong" class="game_read_more">
+        <p class="game_body">Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+
+        <!-- Screenshots -->
+        <div class="slideshow_container">
+            <div class="mySlides" name="mySlides_pong">
+                <img src="Images/Pong/Gameplay.png" alt="Title" class="slide_image">
+            </div>
+            <div class="mySlides" name="mySlides_pong">
+                <img src="Images/Pong/Select.png" alt="Character Select" class="slide_image">
+            </div>
+
+            <a class="prev" onclick="plusSlides_pong(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides_pong(1)">&#10095;</a>
+        </div>
+        <div style="text-align:center">
+            <span class="dot" name="dot_pong" onclick="currentSlide_pong(1)"></span>
+            <span class="dot" name="dot_pong" onclick="currentSlide_pong(2)"></span>
+        </div>
+
+        <!-- Git Button -->
+        <form action="https://github.com/ElvinNicholson/Pong-Game.git" method="get" target="_blank" class="display_inline_block">
+            <button class="game_button game_button_git">
+                GitHub
+                <img src="Images/github-mark.svg" alt="GitHub" class="game_button_image">
+            </button>
+        </form>
+
+        <!-- YouTube Button -->
+        <form action="https://youtu.be/JYkXATDtu4w" method="get" target="_blank" class="display_inline_block">
+            <button class="game_button game_button_youtube">
+                YouTube
+                <img src="Images/youtube_social_icon_dark.png" alt="YouTube" class="game_button_image">
+            </button>
+        </form>
+    </div>
+</div>
+
+<!-- Boss Beater -->
+<div class="custom_border align_center">
+    <img src="Images/BossBeater/Thumbnail.png" alt="Boss Beater" class="game_image">
+    <div class="game_header">Boss Beater</div>
+    <div class="game_box">Python</div>
+    <div class="game_box">PyASGE</div>
+    <div class="game_subheader">A 2D turn-based PVE game made in Python.</div>
+    <button id="button_boss_beater" class="game_button_read_more">Read more...</button>
+
+    <!-- Read More Section -->
+    <div id="more_boss_beater" class="game_read_more">
+        <p class="game_body">Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+
+        <!-- Screenshots -->
+        <div class="slideshow_container">
+            <div class="mySlides" name="mySlides_boss_beater">
+                <img src="Images/BossBeater/Spawn.png" alt="Title" class="slide_image">
+            </div>
+            <div class="mySlides" name="mySlides_boss_beater">
+                <img src="Images/BossBeater/Desert.png" alt="Title" class="slide_image">
+            </div>
+            <div class="mySlides" name="mySlides_boss_beater">
+                <img src="Images/BossBeater/Beach.png" alt="Title" class="slide_image">
+            </div>
+            <div class="mySlides" name="mySlides_boss_beater">
+                <img src="Images/BossBeater/Graveyard.png" alt="Title" class="slide_image">
+            </div>
+            <div class="mySlides" name="mySlides_boss_beater">
+                <img src="Images/BossBeater/Win.png" alt="Title" class="slide_image">
+            </div>
+            <div class="mySlides" name="mySlides_boss_beater">
+                <img src="Images/BossBeater/Lost.png" alt="Title" class="slide_image">
+            </div>
+
+            <a class="prev" onclick="plusSlides_boss_beater(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides_boss_beater(1)">&#10095;</a>
+        </div>
+        <div style="text-align:center">
+            <span class="dot" name="dot_boss_beater" onclick="currentSlide_boss_beater(1)"></span>
+            <span class="dot" name="dot_boss_beater" onclick="currentSlide_boss_beater(2)"></span>
+            <span class="dot" name="dot_boss_beater" onclick="currentSlide_boss_beater(3)"></span>
+            <span class="dot" name="dot_boss_beater" onclick="currentSlide_boss_beater(4)"></span>
+            <span class="dot" name="dot_boss_beater" onclick="currentSlide_boss_beater(5)"></span>
+            <span class="dot" name="dot_boss_beater" onclick="currentSlide_boss_beater(6)"></span>
+        </div>
+
+        <!-- Git Button -->
+        <form action="https://github.com/LuryannC/Boss_Beater.git" method="get" target="_blank" class="display_inline_block">
+            <button class="game_button game_button_git">
+                GitHub
+                <img src="Images/github-mark.svg" alt="GitHub" class="game_button_image">
+            </button>
+        </form>
+
+        <!-- YouTube Button -->
+        <form action="https://youtu.be/zwH8_qMvx2Q" method="get" target="_blank" class="display_inline_block">
+            <button class="game_button game_button_youtube">
+                YouTube
+                <img src="Images/youtube_social_icon_dark.png" alt="YouTube" class="game_button_image">
+            </button>
+        </form>
+    </div>
+</div>
+
+<!-- Programming Languages -->
+<a class="anchor" id="Skills"></a>
+<div class="section_header_align increase_margin_top">
+    <div class="section_header">
+        <img src="Images/Programming.png" alt="Programming Language" class="section_header_image">
+        Programming Languages I've used
+    </div>
+</div>
+
+<div style="margin-top: -40px">
+<div style="float: left; width: 45%">
+    <ul style="float: right">
+        <li>C++</li>
+        <li>C#</li>
+        <li>Python</li>
+        <li>XAML</li>
+    </ul>
+</div>
+<div style="float: right; width: 45%">
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+</div>
+</div>
+
+<!-- Tools -->
+<div class="section_header_align" style="margin-top: 100px">
+    <div class="section_header">
+        <img src="Images/Tool.png" alt="Tools" class="section_header_image">
+        Tools / Programs I've used
+    </div>
+</div>
+
+<div style="margin-top: -40px">
+    <div style="float: left; width: 45%">
+        <ul style="float: right">
+            <li><a href="https://unity.com/" target="_blank" class="game_link">Unity</a></li>
+            <li><a href="https://www.unrealengine.com/en-US/unreal-engine-5" target="_blank" class="game_link">Unreal Engine 5</a></li>
+            <li><a href="https://learn.microsoft.com/en-us/dotnet/desktop/wpf/overview/?view=netdesktop-7.0" target="_blank" class="game_link">WPF</a></li>
+            <li><a href="https://www.sfml-dev.org/" target="_blank" class="game_link">SFML</a></li>
+            <li><a href="https://www.raylib.com/" target="_blank" class="game_link">RayLib</a></li>
+            <li><a href="https://learn.microsoft.com/en-us/windows/win32/direct3d11/atoc-dx-graphics-direct3d-11" target="_blank" class="game_link">DirectX 11</a></li>
+        </ul>
+    </div>
+    <div style="float: right; width: 45%">
+        <ul>
+            <li><a href="https://github.com/" target="_blank" class="game_link">GitHub</a></li>
+            <li><a href="https://www.jetbrains.com/clion/" target="_blank" class="game_link">CLion</a></li>
+            <li><a href="https://www.jetbrains.com/pycharm/" target="_blank" class="game_link">Pycharm</a></li>
+            <li><a href="https://visualstudio.microsoft.com/" target="_blank" class="game_link">Visual Studio</a></li>
+            <li><a href="https://trello.com/" target="_blank" class="game_link">Trello</a></li>
+            <li><a href="https://codeape.co.uk/pyasge/" target="_blank" class="game_link">PyASGE</a></li>
+        </ul>
+    </div>
+</div>
+
+<div style="margin-bottom: 400px"></div>
 
 <script src = "Scripts/Scripts.js"></script>
 </body>

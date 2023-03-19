@@ -32,7 +32,9 @@ body {
     color: black;
     text-align: center;
     padding: 25px 15px;
+    font-weight: bold;
     text-decoration: none;
+    transition-duration: 0.2s;
 }
 
 .navbar a:hover {
@@ -99,6 +101,10 @@ body {
     margin-top: -20px;
 }
 
+.increase_margin_top {
+    margin-top: 30px;
+}
+
 /* Stuff inside boxes */
 .game_header {
     font-size: 40px;
@@ -131,6 +137,22 @@ body {
     font-size: 20px;
     font-weight: bold;
     color: white;
+}
+
+.game_link {
+    color: #6099DB;
+    font-weight: bold;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: #6099DB;
+    text-decoration-thickness: 3px;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -250px;
+    visibility: hidden;
 }
 
 .game_button_read_more {
@@ -202,6 +224,18 @@ body {
 .game_button_youtube:hover {
     background: white;
     color: #EA3223;
+}
+
+.game_button_normal {
+    border: 2px solid black;
+    background: black;
+
+    color: white;
+}
+
+.game_button_normal:hover {
+    background: white;
+    color: black;
 }
 
 .game_button_image {
