@@ -9,7 +9,8 @@ document.getElementById("button_get_therapy").onclick = function () {toggle_read
 document.getElementById("button_chatroom").onclick = function () {toggle_read_more("more_chatroom")};
 document.getElementById("button_pong").onclick = function () {toggle_read_more("more_pong")};
 document.getElementById("button_boss_beater").onclick = function () {toggle_read_more("more_boss_beater")};
-
+document.getElementById("button_afterlife_unity").onclick = function () {toggle_read_more("more_afterlife_unity")};
+document.getElementById("button_afterlife_directx").onclick = function () {toggle_read_more("more_afterlife_directx")};
 
 function toggle_read_more(read_more_element) {
     document.getElementById(read_more_element).classList.toggle("show");
@@ -313,4 +314,64 @@ function showSlides_boss_beater(n) {
     }
     slides[slideIndex_boss_beater-1].style.display = "block";
     dots[slideIndex_boss_beater-1].className += " active";
+}
+
+// AFTERLIFE UNITY SLIDESHOW
+let slideIndex_afterlife_unity = 1;
+showSlides_afterlife_unity(slideIndex_afterlife_unity);
+
+// Next/previous controls
+function plusSlides_afterlife_unity(n) {
+    showSlides_afterlife_unity(slideIndex_afterlife_unity += n);
+}
+
+// Thumbnail image controls
+function currentSlide_afterlife_unity(n) {
+    showSlides_afterlife_unity(slideIndex_afterlife_unity = n);
+}
+
+function showSlides_afterlife_unity(n) {
+    let i;
+    let slides = document.getElementsByName("mySlides_afterlife_unity");
+    let dots = document.getElementsByName("dot_afterlife_unity");
+    if (n > slides.length) {slideIndex_afterlife_unity = 1}
+    if (n < 1) {slideIndex_afterlife_unity = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex_afterlife_unity-1].style.display = "block";
+    dots[slideIndex_afterlife_unity-1].className += " active";
+}
+
+// AFTERLIFE DIRECTX SLIDESHOW
+let slideIndex_afterlife_directx = 1;
+showSlides_afterlife_directx(slideIndex_afterlife_directx);
+
+// Next/previous controls
+function plusSlides_afterlife_directx(n) {
+    showSlides_afterlife_directx(slideIndex_afterlife_directx += n);
+}
+
+// Thumbnail image controls
+function currentSlide_afterlife_directx(n) {
+    showSlides_afterlife_directx(slideIndex_afterlife_directx = n);
+}
+
+function showSlides_afterlife_directx(n) {
+    let i;
+    let slides = document.getElementsByName("mySlides_afterlife_directx");
+    let dots = document.getElementsByName("dot_afterlife_directx");
+    if (n > slides.length) {slideIndex_afterlife_directx = 1}
+    if (n < 1) {slideIndex_afterlife_directx = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex_afterlife_directx-1].style.display = "block";
+    dots[slideIndex_afterlife_directx-1].className += " active";
 }

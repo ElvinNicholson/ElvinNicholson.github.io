@@ -40,6 +40,18 @@ body {
     width: 60%;
 }
 
+/* Custom Border */
+.custom_border {
+    border: 30px solid;
+    padding: 15px;
+    border-image: url("../Images/Border.png") 50 round;
+}
+
+.display_inline_block {
+    display: inline-block;
+    margin: 20px 0;
+}
+
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     [class*="col-"] {
@@ -53,6 +65,17 @@ body {
     .game_subheader {
         font-size: 18px;
         width: 100%;
+    }
+
+    .custom_border {
+        border: 30px solid;
+        padding: 15px;
+        border-image: url("../Images/Border_Rotated.png") 50 round;
+    }
+
+    .display_inline_block {
+        display: block;
+        margin: 10px 0;
     }
 }
 
@@ -85,21 +108,10 @@ body {
     color: black;
 }
 
-/* Custom Border */
-.custom_border {
-    border: 30px solid;
-    padding: 15px;
-    border-image: url("../Images/Border.png") 50 round;
-}
-
 /* Page content */
 .align_center {
     margin: auto;
     width: 70%;
-}
-
-.display_inline_block {
-    display: inline-block;
 }
 
 .text_bold {
@@ -163,7 +175,6 @@ body {
 }
 
 .game_image {
-    padding: 10px;
     float: right;
     display: inline-block;
     border-radius: 20px;
@@ -223,7 +234,6 @@ a.anchor {
     border-radius: 10px;
     display: inline-block;
     padding: 8px 16px;
-    margin: 20px 0;
 
     text-align: center;
     font-size: 20px;
