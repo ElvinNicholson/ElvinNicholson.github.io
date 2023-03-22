@@ -52,6 +52,16 @@ body {
     margin: 20px 0;
 }
 
+.header {
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.sub_header {
+    font-size: 25px;
+}
+
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     [class*="col-"] {
@@ -76,6 +86,17 @@ body {
     .display_inline_block {
         display: block;
         margin: 10px 0;
+    }
+
+    .header {
+        font-size: 40px;
+        font-weight: bolder;
+        margin-bottom: 20px;
+    }
+
+    .sub_header {
+        font-size: 20px;
+        padding-top: 1px;
     }
 }
 
@@ -122,20 +143,9 @@ body {
     color: #999;
 }
 
-.header {
-    font-size: 50px;
-    font-weight: bolder;
-    margin-bottom: 20px;
-}
-
-.sub_header {
-    font-size: 25px;
-}
-
 .section_header_align {
     width: 75%;
     margin: auto;
-    padding: 40px 0;
 }
 
 .section_header {
@@ -278,6 +288,18 @@ a.anchor {
     color: #EA3223;
 }
 
+.game_button_linkedin {
+    border: 2px solid #0077B7;
+    background: #0077B7;
+
+    color: white;
+}
+
+.game_button_linkedin:hover {
+    background: white;
+    color: #0077B7;
+}
+
 .game_button_normal {
     border: 2px solid black;
     background: black;
@@ -306,6 +328,10 @@ a.anchor {
 
 .game_button_youtube:hover .game_button_image {
     filter: invert(30%) sepia(61%) saturate(4504%) hue-rotate(348deg) brightness(93%) contrast(98%);
+}
+
+.game_button_linkedin:hover .game_button_image {
+    filter: invert(34%) sepia(16%) saturate(5892%) hue-rotate(173deg) brightness(98%) contrast(104%);
 }
 
 .game_read_more {
