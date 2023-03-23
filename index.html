@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap" rel="stylesheet">
 
     <link rel = "stylesheet" href = "CSS/Styles.css">
+    <title>Elvin Nicholson Portfolio</title>
 </head>
 
 <body>
@@ -26,7 +27,7 @@
     <p class="header">Hello, I'm Elvin Nicholson</p>
     <p class="reduce_margin_top sub_header">I'm currently studying Games Technology in UWE Bristol</p>
     <div class="text_bold text_grey reduce_margin_top sub_header">
-        <p>I have a strong background in game programming, with a lot of experience in Unity and lower level engines and creating Windows apps that helps with development of games. I received <a href="https://drive.google.com/file/d/1FIK2ViCSsMeBfPbkke5k39-drfHxiN16/view?usp=share_link" target="_blank" class="game_link">The Dean's List award</a> for my academic achievements in the 2021-22 academic year.</p>
+        <p>I have a strong background in game programming, with a lot of experience in Unity and lower level engines and creating Windows apps that helps with the development of games. I received <a href="https://drive.google.com/file/d/1FIK2ViCSsMeBfPbkke5k39-drfHxiN16/view?usp=share_link" target="_blank" class="game_link">The Dean's List award</a> for my academic achievements in the 2021-22 academic year.</p>
     </div>
 
     <form action="https://github.com/ElvinNicholson" method="get" target="_blank" style="display: inline-block">
@@ -44,6 +45,12 @@
     <form action="https://www.linkedin.com/in/elvin-nicholson/" method="get" target="_blank" style="display: inline-block">
         <button class="game_button game_button_linkedin">
             <img src="Images/LinkedIn.png" alt="Itch.IO" class="game_button_image">
+        </button>
+    </form>
+
+    <form action="https://drive.google.com/file/d/1rP9ULhCWzkw4tSS5Qsfe9yI8RstSKyCi/view?usp=share_link" method="get" target="_blank" style="display: inline-block">
+        <button class="game_button game_button_normal">
+            CV
         </button>
     </form>
 </div>
@@ -70,8 +77,9 @@
 
     <!-- Read More Section -->
     <div id="more_tictako" class="game_read_more">
-        <p class="game_body">TicTako is a classic Tic-Tac-Toe game themed around the popular VTuber group Hololive EN. The game features a fully hand-drawn art made by me, with a lot of animated elements and can be played by two players with local multiplayer or solo against a bot. The bot uses a minimax algorithm to determine its best move, which is why its impossible to win against it. In hindsight, this was a horrible game design, however at that time, I had little to no knowledge about game programming or the Unity engine, so I made it so that the player only has to get a draw against the bot to win.</p>
-        <p class="game_body">Overall, this was a very eye-opening experience for me into the world of game development and taught me a lot of valuable lesson on how to NOT program a game. The game took me around a month to create over the summer, and was released back on 4th August, 2021. As of the 21st March 2023, the TicTako has over 3,000 browser plays on itch io. </p>
+        <p class="game_body">TicTako is a classic Tic-Tac-Toe game themed around the popular VTuber group Hololive EN. This was the first ever game I have ever published and is also my introduction to game programming. The game was finished a month after I started development, and I did a lot of research and self-study regarding Unity, C#, and the algorithm used for the AI in the game.</p>
+        <p class="game_body">TikTako can be played solo against an AI that uses the minimax algorithm to determine its best move, and I added some shortcut within the algorithm to significantly reduce the time it takes to calculate. The game can also be played by two players through local multiplayer. All the assets within the game are fully hand-drawn by me, with a lot of animated elements.</p>
+        <p class="game_body">The game was published back on the 4th of August 2021, and within the first week of its release on itch io, it garnered over 1,400 plays. After its initial release, the game has been getting a steady number of players, and as of 2023, it has been played over 3,000 times.</p>
 
         <!-- Screenshots -->
         <div class="slideshow_container slideshow_width">
@@ -122,8 +130,10 @@
 
     <!-- Read More Section -->
     <div id="more_race_unity" class="game_read_more">
-        <p class="game_body">The Unity Race Creator is a designer facing tool created within Unity which allows designers with no programming knowledge to create and modify a racetrack on a pre-existing game world. It has a custom window that can be used to create a new race and a custom inspector that can modify values such as the number and visuals of checkpoints, starting and ending gates, number of laps, timers, and more.</p>
-        <p class="game_body">The system also comes with a simple UI that displays crucial information such as the timer, current lap, a waypoint to the next checkpoint and a minimap.</p>
+        <p class="game_body">The Unity Race Creator is a designer facing tool created within Unity which allows designers with no programming knowledge to create and modify a racetrack on a pre-existing game world. This was achieved by utilizing the custom window feature within the Unity engine. The Race Creator custom window has a number of options that is used to initialize the race, such as the number of checkpoints and the timer settings.</p>
+        <p class="game_body">These values and more customization features can be found from the custom inspector that appears when selecting the race game object created by the Race Creator. Level designers can easily change the mesh, texture, and manage each checkpoint from this custom inspector without having to do any coding.</p>
+        <p class="game_body">The Unity Race Creator also comes with a standard UI which displays crucial information such as the timer, lap counter, minimap and a waypoint to the next gate. All these values are stored in a separate class from the core racing system so a UI designer can easily use these values to create their own UI without having to interact with the source code of the game. The files of the project follows the structure of a Unity custom package, so it can be easily distributed to other computers or Unity projects.</p>
+        <p class="game_body">For more information regarding this project, please refer to the <a class="text_bold">Unity Implementation</a> section (Page 4) within the <a href="https://drive.google.com/file/d/1Q_9QjbVKZhqRwVOD7_r1lmmlruCbvKvv/view?usp=share_link" target="_blank" class="game_link">Report Document</a>.</p>
 
         <!-- Screenshots -->
         <div class="slideshow_container slideshow_width">
@@ -182,15 +192,15 @@
     <div class="game_header col-8">RayLib Race Creator</div>
     <div class="game_box">C++</div>
     <div class="game_box">RayLib</div>
-    <div class="game_subheader">A system that allows for the creation of a racing system within RayLib through the
-        <a href="#JSON_Level_Editor" class="game_link">JSON Level Editor</a>.
-    </div>
+    <div class="game_subheader">A system that allows for the creation of a racing system within RayLib that only requires minimal programming experience.</div>
     <button id="button_race_raylib" class="game_button_read_more">Read more...</button>
 
     <!-- Read More Section -->
     <div id="more_race_raylib" class="game_read_more">
-        <p class="game_body">The RayLib Race Creator is a counterpart of the <a href="#Race_Unity" class="game_link">Unity Race Creator</a> built on RayLib. Raylib is a low-level game engine with no interface, visual helpers, or editors like Unity. Everything in Raylib is done through C++ scripting. The biggest challenge of this project was creating an easy-to-use environment for level designers to create and modify a race without having to interact with the source code of the game. To tackle this problem, the <a href="#JSON_Level_Editor" class="game_link">JSON Level Editor</a> was made using Windows Presentation Foundation (WPF).</p>
-        <p class="game_body">Race tracks in RayLib are loaded in on runtime using a JSON file that can be easily modified using the JSON Level Editor. The race system has the same features as the Unity Race Creator, with a few added features such as racing bots and a scoreboard. The bots have multiple difficulty settings and can pathfind to the next checkpoint smoothly.</p>
+        <p class="game_body">The RayLib Race Creator is similar to the Unity Race Creator, but its built on RayLib. RayLib is a low-level game engine with no interface, visual helpers, or editors like Unity, so everything in RayLib is done through C++ scripting. The biggest challenge of this project was creating an easy-to-use environment for level designers to create and modify a race without having to interact with the source code of the game. To tackle this problem, the <a href="#JSON_Level_Editor" class="game_link">JSON Level Editor</a> was made using Windows Presentation Foundation (WPF).</p>
+        <p class="game_body">Because RayLib has less features than Unity, I had to create my own system in order to replicate the features present within the Unity Race Creator. For example, a combination of linear and trigonometric equations was used to display the waypoint to the next checkpoint correctly. A similar system is also used in the pathfinding algorithm of the AI racers present within the game. The AI racers can automatically progress throughout the race and compete against the player. These AI racers also has an adjustable difficulty that can be tweaked through the <a href="#JSON_Level_Editor" class="game_link">JSON Level Editor</a>.</p>
+        <p class="game_body">More information regarding the algorithm used for the AI can be found in the <a class="text_bold">Racing Bots</a> section (Page 10) within the <a href="https://drive.google.com/file/d/1Q_9QjbVKZhqRwVOD7_r1lmmlruCbvKvv/view?usp=share_link" target="_blank" class="game_link">Report Document</a>.</p>
+        <p class="game_body">Since the scripting for RayLib is done in C++, I had access to pointers so all the assets for the race are managed using smart pointers. Meshes and textures are only loaded once at the initialization of a level and a reference to them is shared to all the checkpoints to avoid each checkpoints having their own mesh and texture, which leads to significantly better optimization.</p>
 
         <!-- Screenshots -->
         <div class="slideshow_container slideshow_width">
@@ -246,14 +256,15 @@
     <div class="game_box">C#</div>
     <div class="game_box">XAML</div>
     <div class="game_box">WPF</div>
-    <div class="game_subheader">An application made using WPF to easily create and modify a race for the
-        <a href="#RayLib_Race_Creator" class="game_link">RayLib Race Creator</a>.
-    </div>
+    <div class="game_subheader">An application made using WPF to easily create and modify a JSON file used for a game level through an interactive UI.</div>
     <button id="button_race_editor" class="game_button_read_more">Read more...</button>
 
     <!-- Read More Section -->
     <div id="more_race_editor" class="game_read_more">
-        <p class="game_body">The JSON Level Editor is a tool made using Windows Presentation Form (WPF) to modify a JSON file used to load a race in the <a href="#RayLib_Race_Creator" class="game_link">RayLib Race Creator</a>. It allows level designers to create a new racetrack and modify them through a visual interface rather than staring at a wall of text in a JSON file. The editor features a scene view that shows all the game objects related to the race similar to Unity, with a side bar can modify these game objects such as changing their position, texture and model.</p>
+        <p class="game_body">The JSON Level Editor is a tool made using Windows Presentation Form (WPF) to modify a JSON file used to load a race in the <a href="#RayLib_Race_Creator" class="game_link">RayLib Race Creator</a>. It allows level designers to create a new racetrack and modify them through a visual interface without having to code anything. The level editor has a number of features that gives a lot of flexibility to level designers to tweak aspects of racetrack such as the position, mesh, textures and number of checkpoints using the interactive UI.</p>
+        <p class="game_body">Moreover, the tool can also add AI racers into the race by simply clicking a button, and the difficulty of each AI racers can be easily tweaked in the same panel. All this information is displayed in a 3D viewport which responds to the changes in real-time, similar to the scene view in Unity.</p>
+        <p class="game_body">Prior to this project, I had no experience in creating a Windows application. However, I managed to finish the entire level editor within 5 days by doing a lot of research and self-study.</p>
+        <p class="game_body">More information regarding this tool can be found in the <a class="text_bold">WPF Level Editor</a> section (Page 7) within the <a href="https://drive.google.com/file/d/1Q_9QjbVKZhqRwVOD7_r1lmmlruCbvKvv/view?usp=share_link" target="_blank" class="game_link">Report Document</a>.</p>
 
         <!-- Screenshots -->
         <div class="slideshow_container slideshow_width">
@@ -318,8 +329,9 @@
 
     <!-- Read More Section -->
     <div id="more_afterlife_unity" class="game_read_more">
-        <p class="game_body">Afterlife in Unity is a recreation of the Afterlife game made by LucasArts made in 2 weeks with a team of 6 people as a university project. The aim of the project is to create a rapid alpha build of the game in Unity as a preparation for porting it to DirectX 11. Essentially, Afterlife is an isometric city builder, but you are managing both heaven and hell which have different requirements to earn the most amount of money. </p>
-        <p class="game_body">In this project, I was responsible for creating the entire building system and the functionalities for all the buildings in the game. The building system consists of the tilemaps for both planes, how the player interacts with the map, the visuals of the building, the zone system, the roads, etc.</p>
+        <p class="game_body">Afterlife in Unity is a recreation of the Afterlife game made by LucasArts made in 2 weeks with a team of 6 people as a university project. The aim of the project is to create a rapid alpha build of the game in Unity as a preparation for porting it to DirectX 11. Essentially, Afterlife is an isometric city builder, but you are managing both heaven and hell which have different requirements to earn the most amount of money.</p>
+        <p class="game_body">In this project, I was responsible for creating the entire building system and the functionalities for all of the buildings in the game. The building system consists of the tilemaps for both planes, how the player interacts with the map, the zone systems, and the making the road sprites automatically adjust themselves accordingly when other roads around them are added or removed.</p>
+        <p class="game_body">I also took the role of managing the GitHub repository used throughout this entire project, such as merging branches together and solving merge conflicts.</p>
 
         <!-- Screenshots -->
         <div class="slideshow_container slideshow_width">
@@ -385,8 +397,11 @@
 
     <!-- Read More Section -->
     <div id="more_afterlife_directx" class="game_read_more">
-        <p class="game_body">Afterlife in DirectX 11 is a recreation of the Afterlife game made in DirectX 11 with C++. This project is a continuation of the Afterlife in Unity and is currently still in development. A beta showcase of the game can be seen in the <a href="https://youtu.be/X1gd2V32YfA" target="_blank" class="game_link">YouTube video</a> linked below.</p>
-        <p class="game_body">In this project, I am responsible for creating the entire building system, creating a vertex-based game object that can display a texture, a texture manager for the buildings, the tilemaps for both planes, the isometric camera, and how the player interacts with the game world. A more detailed explanation of my roles can be found on my <a href="https://elvinnicholson.wordpress.com/" target="_blank" class="game_link">dev blog</a>.</p>
+        <p class="game_body">Afterlife in DirectX 11 is a recreation of the Afterlife game made in DirectX 11 with C++. This project is a continuation of the Afterlife in Unity and is currently still in development.</p>
+        <p class="game_body">In this project, I am responsible for creating the entire building system, a texture manager, and an isometric camera. The building system is built on a vertex-based quad game object that I made which can change its dimensions to fit a texture. This quad game object is used for the tilemap system and to display the buildings that appear in the game. I also worked on the functionalities of every unique building in the game.</p>
+        <p class="game_body">The textures used throughout the building system are managed by a texture manager that I designed after the flyweight design pattern. Essentially, the texture manager significantly reduces the memory usage from the game by sharing a reference to the texture amongst similar objects using C++ pointers. The texture manager that I made managed to reduce the memory usage of the game from around 3 GB to only 500 MB, and also significantly reduces the load time when starting the game.</p>
+        <p class="game_body">I was also responsible for creating the isometric camera for the game, which was done by creating an orthographic projection matrix and offsetting the camera from its target by a specific value which was calculated using trigonometric equations to achieve a 30 degrees isometric view. Moreover, I also worked on translating the 2D mouse position to a 3D in-game world position. This was done by un-projecting the 2D mouse position and using the result in a parametric equation to find the correct in-game world position.</p>
+        <p class="game_body">For more information, a beta showcase of the game can be seen in the YouTube video linked below.</p>
 
         <!-- Screenshots -->
         <div class="slideshow_container slideshow_width">
@@ -446,8 +461,11 @@
 
     <!-- Read More Section -->
     <div id="more_get_therapy" class="game_read_more">
-        <p class="game_body">Get Therapy is a mobile puzzle game made in Unity which deals with the complexities of therapy in a video game format. The gameplay consists of tapping on thought bubbles to progress through a therapy session. Depending on what the player says, the conversation will branch off into different endings.</p>
-        <p class="game_body">The game was made by a group of 5 people, and I was in charge of creating the entire title and level selection of the game, the sprites and animations of both characters present in the game, the system that changes the colour of the background depending on the patients mood and building the game to mobile.</p>
+        <p class="game_body">Get Therapy is a mobile puzzle game made in Unity which deals with the complexities of therapy in a lighter tone. The gameplay consists of tapping on thought bubbles to progress through a therapy session. Depending on what the player says, the conversation will branch off into different endings.</p>
+        <p class="game_body">In this project, I was in charge of creating the entire title and level selection of the game, the sprites and animations of both characters present in the game, the system that changes the colour of the background depending on the patients mood and building the game to mobile.</p>
+        <p class="game_body">The level selection screen of the game can be controlled by performing a swiping gesture on the mobile device. This was done by detecting the direction of the swipe in script and then performing the appropriate animations. Both characters present in the game are made using Unity skeletal animation feature and was also animated by me within Unity.</p>
+        <p class="game_body">The background colour throughout gameplay will reflect the mood of the patient. If the patient is feeling positive, the background will turn green, and it will turn red if the patient is feeling negative. This was done by having a variable that tracks the patients mood which is changed whenever the player chooses a dialogue options. The wavy effects on the background was achieved by playing a pre-rendered videos made in Adobe Illustrator.</p>
+        <p class="game_body">I was also responsible for building the game to mobile, which is the target platform of the game, and managing the pull requests of the GitHub repository throughout the entire development of the game.</p>
 
         <!-- Screenshots -->
         <div class="slideshow_container slideshow_width">
@@ -499,6 +517,72 @@
     </div>
 </div>
 
+<!-- Boss Beater -->
+<div class="custom_border align_center">
+    <img src="Images/BossBeater/Thumbnail.png" alt="Boss Beater" class="game_image col-4">
+    <div class="game_header col-8">Boss Beater</div>
+    <div class="game_box">Python</div>
+    <div class="game_box">PyASGE</div>
+    <div class="game_subheader">A 2D turn-based PVE game with multiple maps, enemies and bosses, made in Python using PyASGE.</div>
+    <button id="button_boss_beater" class="game_button_read_more">Read more...</button>
+
+    <!-- Read More Section -->
+    <div id="more_boss_beater" class="game_read_more">
+        <p class="game_body">Boss Beater is a 2D turn-based game made in a group of 3 people as a university project. The game runs on PyASGE, which is a custom game engine made by my lecturer using Python. The objective of the game is to defeat the enemies in the desert, beach, and graveyard map without dying. The game features a unique fully animated boss with a behaviour tree for each map and some simpler enemies. The player can only perform two actions per turn, such as a ranged attack, a melee attack and moving to a different position.</p>
+        <p class="game_body">My role in this group was to create the bosses with a unique AI and animations. The AI for the bosses is made using behaviour trees, which allows them to decide whether to move or attack the player and choose which attacks to use against the player based on its surroundings. The animations for the bosses are managed by an animation manager unique to each boss, which will wait until the current boss animation has finished before performing the next action.</p>
+        <p class="game_body">I was also responsible for all the UI elements of the game, such as the health and stamina bar, the turn order shown on the right side of the screen, the title and game over screens. The turn order UI was done by reading the data from the turn manager that my team member made, assigning a name and an icon to each entity present within the level and displaying it in a way that is easy to understand.</p>
+
+        <!-- Screenshots -->
+        <div class="slideshow_container slideshow_width">
+            <div class="mySlides" name="mySlides_boss_beater">
+                <img src="Images/BossBeater/Spawn.png" alt="Title" class="slide_image">
+            </div>
+            <div class="mySlides" name="mySlides_boss_beater">
+                <img src="Images/BossBeater/Desert.png" alt="Title" class="slide_image">
+            </div>
+            <div class="mySlides" name="mySlides_boss_beater">
+                <img src="Images/BossBeater/Beach.png" alt="Title" class="slide_image">
+            </div>
+            <div class="mySlides" name="mySlides_boss_beater">
+                <img src="Images/BossBeater/Graveyard.png" alt="Title" class="slide_image">
+            </div>
+            <div class="mySlides" name="mySlides_boss_beater">
+                <img src="Images/BossBeater/Win.png" alt="Title" class="slide_image">
+            </div>
+            <div class="mySlides" name="mySlides_boss_beater">
+                <img src="Images/BossBeater/Lost.png" alt="Title" class="slide_image">
+            </div>
+
+            <a class="prev" onclick="plusSlides_boss_beater(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides_boss_beater(1)">&#10095;</a>
+        </div>
+        <div style="text-align:center">
+            <span class="dot" name="dot_boss_beater" onclick="currentSlide_boss_beater(1)"></span>
+            <span class="dot" name="dot_boss_beater" onclick="currentSlide_boss_beater(2)"></span>
+            <span class="dot" name="dot_boss_beater" onclick="currentSlide_boss_beater(3)"></span>
+            <span class="dot" name="dot_boss_beater" onclick="currentSlide_boss_beater(4)"></span>
+            <span class="dot" name="dot_boss_beater" onclick="currentSlide_boss_beater(5)"></span>
+            <span class="dot" name="dot_boss_beater" onclick="currentSlide_boss_beater(6)"></span>
+        </div>
+
+        <!-- Git Button -->
+        <form action="https://github.com/LuryannC/Boss_Beater.git" method="get" target="_blank" class="display_inline_block">
+            <button class="game_button game_button_git">
+                GitHub
+                <img src="Images/github-mark.svg" alt="GitHub" class="game_button_image">
+            </button>
+        </form>
+
+        <!-- YouTube Button -->
+        <form action="https://youtu.be/zwH8_qMvx2Q" method="get" target="_blank" class="display_inline_block">
+            <button class="game_button game_button_youtube">
+                YouTube
+                <img src="Images/youtube_social_icon_dark.png" alt="YouTube" class="game_button_image">
+            </button>
+        </form>
+    </div>
+</div>
+
 <!-- Pacman -->
 <div class="custom_border align_center">
     <img src="Images/Pacman/Thumbnail.png" alt="PacMan" class="game_image col-4">
@@ -510,7 +594,8 @@
 
     <!-- Read More Section -->
     <div id="more_pacman" class="game_read_more">
-        <p class="game_body">PacMan in C++ features 4 distinct behaviours for each ghost with their own target destination for their pathfinding determined by the same algorithm from the original game. The tilemap for the game was made in <a href="https://www.mapeditor.org/" class="game_link">Tiled</a> and is read on runtime using <a href="https://github.com/fallahn/tmxlite" class="game_link">tmxlite</a>. Additionally, the game also has a new unique map where the ghosts spawn in 4 different corners of the map.</p>
+        <p class="game_body">PacMan in C++ features 4 distinct behaviours for each ghost with their own target destination for their pathfinding determined by the same algorithm from the original game. The tilemap for the game was made in <a href="https://www.mapeditor.org/" class="game_link">Tiled</a> and is read on runtime using <a href="https://github.com/fallahn/tmxlite" class="game_link">tmxlite</a>. The game has all the features of the original PacMan game: such as collectible pellets, power up pellets, multiple ghosts, and a high score tracker.</p>
+        <p class="game_body">Additionally, the game also has a new unique map where the ghosts spawn in 4 different corners of the map. This was possible since the ghosts AI can take in different values for their spawning and respawn points, offering a lot of flexibility for creating even more levels.</p>
 
         <!-- Screenshots -->
         <div class="slideshow_container slideshow_width">
@@ -566,7 +651,10 @@
 
     <!-- Read More Section -->
     <div id="more_platformer" class="game_read_more">
-        <p class="game_body">Frog Jump is a 2D platformer game that features a wall slide and a wall jump as part of the players move set. The objective of the game is to collect a key and bring it to the door to complete a level while collecting as many gems as possible to achieve a higher score. Levels in the game are saved in a text file that can be easily modified and loaded on runtime. The game also has a moving enemy that will patrol on whatever surface they are placed on.</p>
+        <p class="game_body">Frog Jump is a 2D platformer game with a complex movement system. The player can perform a wall slide by holding the corresponding movement key into the wall and slowly slide down along the surface of the wall. While the player is performing a wall slide, pressing the jump button will result in a wall jump and launch the player up and away from the wall. This movement system allows for a more complex and engaging level design.</p>
+        <p class="game_body">The levels in the game are made using a simple text file. The text file is then read by the game when loading a level and create game objects based on the characters and their position in the text file. As a result, it is very easy to create a new level or modify an existing one.</p>
+        <p class="game_body">To complete a level, the player will have to collect a key after performing a series of jumping puzzles. The key can then be used to open a door which will complete the level. The player can also collect gems throughout the map to achieve a higher score by the end of the level.</p>
+        <p class="game_body">The game also features a simple enemy which will patrol whatever surface they are on. The AI of this enemy can detect ledges and walls using simple 2D box collision and cause it to turn around in the opposite direction to avoid walking into a wall or falling off.</p>
 
         <!-- Screenshots -->
         <div class="slideshow_container slideshow_width">
@@ -675,7 +763,8 @@
 
     <!-- Read More Section -->
     <div id="more_pong" class="game_read_more">
-        <p class="game_body">A recreation of the classic Pong game that can be played solo against a bot or with two people with local multiplayer. The game also has barriers behind each paddles that can reflect the ball once if the player misses it.</p>
+        <p class="game_body">A recreation of the classic Pong game that can be played solo against a bot or with two people with local multiplayer. The AI for the bot was made by simply determining where the position of the ball is and moving the paddle up and down according to the Y-coordinate of the ball. To make it fair for the player, the bot will only be able to detect the ball if it is within the bot’s side of the table.</p>
+        <p class="game_body">The game also has barriers behind each paddle that can reflect the ball once if the player misses it. The collision of the ball and the paddle was done using a simple 2D box collision; however, the game can detect which part of the paddle is in contact with the ball and alter the direction of the ball. For example, if the ball hits the top part of the paddle, it will bounce up and away from the paddle. If the ball hits the paddle in the middle, it will bounce normally.</p>
 
         <!-- Screenshots -->
         <div class="slideshow_container slideshow_width">
@@ -704,71 +793,6 @@
 
         <!-- YouTube Button -->
         <form action="https://youtu.be/JYkXATDtu4w" method="get" target="_blank" class="display_inline_block">
-            <button class="game_button game_button_youtube">
-                YouTube
-                <img src="Images/youtube_social_icon_dark.png" alt="YouTube" class="game_button_image">
-            </button>
-        </form>
-    </div>
-</div>
-
-<!-- Boss Beater -->
-<div class="custom_border align_center">
-    <img src="Images/BossBeater/Thumbnail.png" alt="Boss Beater" class="game_image col-4">
-    <div class="game_header col-8">Boss Beater</div>
-    <div class="game_box">Python</div>
-    <div class="game_box">PyASGE</div>
-    <div class="game_subheader">A 2D turn-based PVE game with multiple maps, enemies and bosses, made in Python using PyASGE.</div>
-    <button id="button_boss_beater" class="game_button_read_more">Read more...</button>
-
-    <!-- Read More Section -->
-    <div id="more_boss_beater" class="game_read_more">
-        <p class="game_body">Boss Beater was made in a group of 3 people as a university project. The objective of the game is to defeat the enemies in the desert, beach, and graveyard map without dying. The game features a unique fully animated boss with a behaviour tree for each map and some simpler enemies. The player can only perform two actions per turn, such as a ranged attack, a melee attack and moving to a different position.</p>
-        <p class="game_body">I was responsible for all the UI elements of the game, such as the health and stamina bar, the enemy health bar, the turn order shown on the right side of the screen, the title and game over screens. I was also in charge of creating all the bosses (Minotaur, Pirate and Leshen) in the game including animating them and giving them unique behaviours.</p>
-
-        <!-- Screenshots -->
-        <div class="slideshow_container slideshow_width">
-            <div class="mySlides" name="mySlides_boss_beater">
-                <img src="Images/BossBeater/Spawn.png" alt="Title" class="slide_image">
-            </div>
-            <div class="mySlides" name="mySlides_boss_beater">
-                <img src="Images/BossBeater/Desert.png" alt="Title" class="slide_image">
-            </div>
-            <div class="mySlides" name="mySlides_boss_beater">
-                <img src="Images/BossBeater/Beach.png" alt="Title" class="slide_image">
-            </div>
-            <div class="mySlides" name="mySlides_boss_beater">
-                <img src="Images/BossBeater/Graveyard.png" alt="Title" class="slide_image">
-            </div>
-            <div class="mySlides" name="mySlides_boss_beater">
-                <img src="Images/BossBeater/Win.png" alt="Title" class="slide_image">
-            </div>
-            <div class="mySlides" name="mySlides_boss_beater">
-                <img src="Images/BossBeater/Lost.png" alt="Title" class="slide_image">
-            </div>
-
-            <a class="prev" onclick="plusSlides_boss_beater(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides_boss_beater(1)">&#10095;</a>
-        </div>
-        <div style="text-align:center">
-            <span class="dot" name="dot_boss_beater" onclick="currentSlide_boss_beater(1)"></span>
-            <span class="dot" name="dot_boss_beater" onclick="currentSlide_boss_beater(2)"></span>
-            <span class="dot" name="dot_boss_beater" onclick="currentSlide_boss_beater(3)"></span>
-            <span class="dot" name="dot_boss_beater" onclick="currentSlide_boss_beater(4)"></span>
-            <span class="dot" name="dot_boss_beater" onclick="currentSlide_boss_beater(5)"></span>
-            <span class="dot" name="dot_boss_beater" onclick="currentSlide_boss_beater(6)"></span>
-        </div>
-
-        <!-- Git Button -->
-        <form action="https://github.com/LuryannC/Boss_Beater.git" method="get" target="_blank" class="display_inline_block">
-            <button class="game_button game_button_git">
-                GitHub
-                <img src="Images/github-mark.svg" alt="GitHub" class="game_button_image">
-            </button>
-        </form>
-
-        <!-- YouTube Button -->
-        <form action="https://youtu.be/zwH8_qMvx2Q" method="get" target="_blank" class="display_inline_block">
             <button class="game_button game_button_youtube">
                 YouTube
                 <img src="Images/youtube_social_icon_dark.png" alt="YouTube" class="game_button_image">
