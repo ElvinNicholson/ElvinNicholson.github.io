@@ -66,7 +66,14 @@ body {
     font-size: 18px;
 }
 
-@media only screen and (max-width: 768px) {
+.game_image {
+    height: 210px;
+    float: right;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
     /* For mobile phones: */
     [class*="col-"] {
         width: 100%;
@@ -105,6 +112,14 @@ body {
 
     .game_body {
         font-size: 16px;
+    }
+
+    .game_image {
+        height: 100%;
+        width: 100%;
+        float: right;
+        display: inline-block;
+        border-radius: 20px;
     }
 }
 
@@ -186,12 +201,6 @@ body {
 .game_header {
     font-size: 40px;
     font-weight: bold;
-}
-
-.game_image {
-    float: right;
-    display: inline-block;
-    border-radius: 20px;
 }
 
 .game_box {
