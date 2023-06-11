@@ -242,7 +242,7 @@
         <!-- Documents Button -->
         <form action="https://drive.google.com/file/d/1Q_9QjbVKZhqRwVOD7_r1lmmlruCbvKvv/view?usp=share_link" method="get" target="_blank" class="display_inline_block">
             <button class="game_button game_button_normal">
-                Report Document
+                Technical Report
             </button>
         </form>
     </div>
@@ -310,7 +310,7 @@
         <!-- Documents Button -->
         <form action="https://drive.google.com/file/d/1Q_9QjbVKZhqRwVOD7_r1lmmlruCbvKvv/view?usp=share_link" method="get" target="_blank" class="display_inline_block">
             <button class="game_button game_button_normal">
-                Report Document
+                Technical Report
             </button>
         </form>
     </div>
@@ -392,16 +392,18 @@
     <div class="game_box">In Development</div>
     <div class="game_subheader">A recreation of the
         <a href="https://store.steampowered.com/app/557240/Afterlife/" target="_blank" class="game_link">Afterlife</a>
-        game, made in DirectX 11 with C++. This game is currently still in development.</div>
+        game, made from the ground up in DirectX 11 with C++.</div>
     <button id="button_afterlife_directx" class="game_button_read_more">Read more...</button>
 
     <!-- Read More Section -->
     <div id="more_afterlife_directx" class="game_read_more">
-        <p class="game_body">Afterlife in DirectX 11 is a recreation of the Afterlife game made in DirectX 11 with C++. This project is a continuation of the Afterlife in Unity and is currently still in development.</p>
-        <p class="game_body">In this project, I am responsible for creating the entire building system, a texture manager, and an isometric camera. The building system is built on a vertex-based quad game object that I made which can change its dimensions to fit a texture. This quad game object is used for the tilemap system and to display the buildings that appear in the game. I also worked on the functionalities of every unique building in the game.</p>
-        <p class="game_body">The textures used throughout the building system are managed by a texture manager that I designed after the flyweight design pattern. Essentially, the texture manager significantly reduces the memory usage from the game by sharing a reference to the texture amongst similar objects using C++ pointers. The texture manager that I made managed to reduce the memory usage of the game from around 3 GB to only 500 MB, and also significantly reduces the load time when starting the game.</p>
+        <p class="game_body">Afterlife in DirectX 11 is a recreation of the Afterlife game made in DirectX 11 with C++. This part of a university assignment and was done by a group of 5 people over 4 months. The assignment simulates the environment of a small game studio and follows the agile project management approach. As such, I learned a lot about team dynamics and got used to scrum meetings where the group discuss with each other regarding the progress of the project.</p>
+        <p class="game_body">In this project, I am responsible for creating the entire building system, a texture manager, and an isometric camera. The building system is built on a vertex-based quad game object that I made which can change its dimensions to fit a texture. This quad game object is used for the tilemap system and to display the buildings that appear in the game. I also worked on the functionalities of every unique building in the game and a supporting population system.</p>
+        <p class="game_body">The textures used throughout the building system are managed by a texture manager that I made based on the flyweight design pattern. Essentially, the texture manager significantly reduces the memory usage from the game by sharing a reference to the texture amongst similar objects using C++ pointers. The texture manager that I made managed to reduce the memory usage of the game from around 3 GB to only 500 MB, and also significantly reduces the load time when starting the game.</p>
         <p class="game_body">I was also responsible for creating the isometric camera for the game, which was done by creating an orthographic projection matrix and offsetting the camera from its target by a specific value which was calculated using trigonometric equations to achieve a 30 degrees isometric view. Moreover, I also worked on translating the 2D mouse position to a 3D in-game world position. This was done by un-projecting the 2D mouse position and using the result in a parametric equation to find the correct in-game world position.</p>
-        <p class="game_body">For more information, a beta showcase of the game can be seen in the YouTube video linked below.</p>
+        <p class="game_body">For more information, a <a href="https://github.com/jHompsUWE/Afterlife-Architects-v2/wiki" target="_blank" class="game_link">Wiki</a>
+            , <a href="https://drive.google.com/file/d/1YtUh1DOro0zbODX515hgQbc7DWlnERd0/view?usp=sharing" target="_blank" class="game_link">Technical Report</a>
+            , and <a href="https://drive.google.com/file/d/1ophy1rNW6Ft1RBCZa0gMDhrsVE3IOati/view?usp=sharing" target="_blank" class="game_link">Post-mortem</a> of the project is available.</p>
 
         <!-- Screenshots -->
         <div class="slideshow_container slideshow_width">
@@ -433,7 +435,7 @@
         </form>
 
         <!-- YouTube Button -->
-        <form action="https://youtu.be/X1gd2V32YfA" method="get" target="_blank" class="display_inline_block">
+        <form action="https://youtu.be/zOCg0FI7NZo" method="get" target="_blank" class="display_inline_block">
             <button class="game_button game_button_youtube">
                 YouTube
                 <img src="Images/youtube_social_icon_dark.png" alt="YouTube" class="game_button_image">
@@ -444,6 +446,27 @@
         <form action="https://elvinnicholson.wordpress.com/" method="get" target="_blank" class="display_inline_block">
             <button class="game_button game_button_normal">
                 Dev Blog
+            </button>
+        </form>
+
+        <!-- Wiki -->
+        <form action="https://github.com/jHompsUWE/Afterlife-Architects-v2/wiki" method="get" target="_blank" class="display_inline_block">
+            <button class="game_button game_button_normal">
+                Wiki
+            </button>
+        </form>
+
+        <!-- Technical Report -->
+        <form action="https://drive.google.com/file/d/1YtUh1DOro0zbODX515hgQbc7DWlnERd0/view?usp=sharing" method="get" target="_blank" class="display_inline_block">
+            <button class="game_button game_button_normal">
+                Technical Report
+            </button>
+        </form>
+
+        <!-- Post-mortem -->
+        <form action="https://drive.google.com/file/d/1ophy1rNW6Ft1RBCZa0gMDhrsVE3IOati/view?usp=sharing" method="get" target="_blank" class="display_inline_block">
+            <button class="game_button game_button_normal">
+                Post-mortem
             </button>
         </form>
     </div>
@@ -512,6 +535,73 @@
         <form action="https://drive.google.com/file/d/1m-yuZ3TzS8-7y2ArEIFldmL6DTDzUjS7/view?usp=share_link" method="get" target="_blank" class="display_inline_block">
             <button class="game_button game_button_normal">
                 Documentation
+            </button>
+        </form>
+    </div>
+</div>
+
+<!-- Shuttered Minds -->
+<div class="custom_border align_center">
+    <img src="Images/ShutteredMinds/Thumbnail.png" alt="ShutteredMinds" class="game_image">
+    <div class="game_header col-8">Shuttered Minds</div>
+    <div class="game_box">C++</div>
+    <div class="game_box">SFML</div>
+    <div class="game_box">Networking</div>
+    <div class="game_subheader">An online multiplayer game networked using TCP sockets and features 2D raytracing.</div>
+    <button id="button_shutteredMinds" class="game_button_read_more">Read more...</button>
+
+    <!-- Read More Section -->
+    <div id="more_shutteredMinds" class="game_read_more">
+        <p class="game_body">Shuttered Minds is a multiplayer co-op game where you have to survive the cold night in an abandoned prison by fueling furnaces to stave off the cold. The game supports online multiplayer using SFML's TCP networking modules and can support any number of players. The game also features 2D raytracing for the lighting system to recreate the eerie atmosphere of an abandoned prison.</p>
+        <p class="game_body">In this project, one of my role was to create aspects of the networking such as: creating and joining an online host, syncing the locations of collectibles across the network and syncing the fuel level of each furnace. I was also responsible for creating the raytraced lighting system and the rendering pipeline.</p>
+        <p class="game_body">The 2D raytracing was achieved by first converting the wall in the tilemap into a series of lines and edge points (Refer to the 4th image in the slideshow). Afterwards, the intersections of the ray and the lines of the wall is calculated and the shape of the visibility polygon is rendered onto a render texture. Next, the render texture is used by the rendering pipeline as input for a GLSL fragment shader to create the lighting effect.</p>
+
+        <!-- Screenshots -->
+        <div class="slideshow_container slideshow_width">
+            <div class="mySlides_shutteredMinds">
+                <img src="Images/ShutteredMinds/Bars.png" alt="Title" class="slide_image">
+            </div>
+            <div class="mySlides_shutteredMinds">
+                <img src="Images/ShutteredMinds/Furnace.png" alt="Character Select" class="slide_image">
+            </div>
+            <div class="mySlides_shutteredMinds">
+                <img src="Images/ShutteredMinds/Pipes.png" alt="Character Select" class="slide_image">
+            </div>
+            <div class="mySlides_shutteredMinds">
+                <img src="Images/ShutteredMinds/1.png" alt="Character Select" class="slide_image">
+            </div>
+            <div class="mySlides_shutteredMinds">
+                <img src="Images/ShutteredMinds/2.png" alt="Character Select" class="slide_image">
+            </div>
+            <div class="mySlides_shutteredMinds">
+                <img src="Images/ShutteredMinds/3.png" alt="Character Select" class="slide_image">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1, 12)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 12)">&#10095;</a>
+        </div>
+        <div style="text-align:center">
+            <span class="dot dot_shutteredMinds" onclick="goToSlide(1, 12)"></span>
+            <span class="dot dot_shutteredMinds" onclick="goToSlide(2, 12)"></span>
+            <span class="dot dot_shutteredMinds" onclick="goToSlide(3, 12)"></span>
+            <span class="dot dot_shutteredMinds" onclick="goToSlide(4, 12)"></span>
+            <span class="dot dot_shutteredMinds" onclick="goToSlide(5, 12)"></span>
+            <span class="dot dot_shutteredMinds" onclick="goToSlide(6, 12)"></span>
+        </div>
+
+        <!-- Git Button -->
+        <form action="https://github.com/ElvinNicholson/Shuttered-Minds.git" method="get" target="_blank" class="display_inline_block">
+            <button class="game_button game_button_git">
+                GitHub
+                <img src="Images/github-mark.svg" alt="GitHub" class="game_button_image">
+            </button>
+        </form>
+
+        <!-- YouTube Button -->
+        <form action="https://youtu.be/K09ZmshvD20" method="get" target="_blank" class="display_inline_block">
+            <button class="game_button game_button_youtube">
+                YouTube
+                <img src="Images/youtube_social_icon_dark.png" alt="YouTube" class="game_button_image">
             </button>
         </form>
     </div>
