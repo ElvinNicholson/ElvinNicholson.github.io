@@ -7,11 +7,12 @@ document.getElementById("button_pacman").onclick = function () {toggle_read_more
 document.getElementById("button_platformer").onclick = function () {toggle_read_more("more_platformer")};
 document.getElementById("button_get_therapy").onclick = function () {toggle_read_more("more_get_therapy")};
 document.getElementById("button_chatroom").onclick = function () {toggle_read_more("more_chatroom")};
-document.getElementById("button_pong").onclick = function () {toggle_read_more("more_pong")};
+// document.getElementById("button_pong").onclick = function () {toggle_read_more("more_pong")};
 document.getElementById("button_boss_beater").onclick = function () {toggle_read_more("more_boss_beater")};
 document.getElementById("button_afterlife_unity").onclick = function () {toggle_read_more("more_afterlife_unity")};
 document.getElementById("button_afterlife_directx").onclick = function () {toggle_read_more("more_afterlife_directx")};
 document.getElementById("button_shutteredMinds").onclick = function () {toggle_read_more("more_shutteredMinds")};
+document.getElementById("button_dialogueEditor").onclick = function () {toggle_read_more("more_dialogueEditor")};
 
 function toggle_read_more(read_more_element) {
     document.getElementById(read_more_element).classList.toggle("show");
@@ -20,10 +21,10 @@ function toggle_read_more(read_more_element) {
 let slideIndex = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1];
 let slideID = ["mySlides_tictako", "mySlides_raceUnity", "mySlides_raceRaylib", "mySlides_raceEditor", "mySlides_afterlifeUnity",
     "mySlides_afterlifeDirectX", "mySlides_getTherapy", "mySlides_bossBeater", "mySlides_pacman", "mySlides_platformer",
-    "mySlides_chatroom", "mySlides_pong", "mySlides_shutteredMinds"];
+    "mySlides_chatroom", "mySlides_shutteredMinds", "mySlides_dialogueEditor"];
 let dotID = ["dot_tictako", "dot_raceUnity", "dot_raceRaylib", "dot_raceEditor", "dot_afterlifeUnity",
     "dot_afterlifeDirectX", "dot_getTherapy", "dot_bossBeater", "dot_pacman", "dot_platformer",
-    "dot_chatroom", "dot_pong", "dot_shutteredMinds"];
+    "dot_chatroom", "dot_shutteredMinds", "dot_dialogueEditor"];
 
 let i;
 for (i = 0; i <= slideID.length; i++)

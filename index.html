@@ -316,6 +316,68 @@
     </div>
 </div>
 
+<!-- Unity Dialogue Editor -->
+<div class="custom_border align_center">
+    <img src="Images/Dialogue_Editor/Thumbnail.png" alt="Unity Dialogue Editor" class="game_image">
+    <div class="game_header col-8">Unity Dialogue Editor</div>
+    <div class="game_box">C#</div>
+    <div class="game_box">Unity</div>
+    <div class="game_subheader">A dialogue editor development tool made using Unity's graphview system.</div>
+    <button id="button_dialogueEditor" class="game_button_read_more">Read more...</button>
+
+    <!-- Read More Section -->
+    <div id="more_dialogueEditor" class="game_read_more">
+        <p class="game_body">Unity Dialogue Editor is a tool made within the Unity Editor using the graphview system which allow developers to create dialogue trees without coding. It uses a node based system similar to Unity's Shader Graph and VFX Graph.</p>
+        <p class="game_body">The editor consists of 4 dialogue nodes: Start, End, Single and Reply nodes. Start and End nodes simply tells the system where the dialogue starts and ends, while the Single node displays a dialogue text. The Reply node allows the player to select a reply during a dialogue which can be used to create branching dialogue paths based on the player's choices.</p>
+        <p class="game_body">The system also contains a simple in-game dialogue UI which reads in data from dialogue trees made using the tool.</p>
+        <p class="game_body">For more information, a report of this tool is available <a href="https://drive.google.com/file/d/12r-qccCSbH_fiLUjPvdJyTVah0vEZ5fY/view?usp=sharing" target="_blank" class="game_link">here</a>.</p>
+
+        <!-- Screenshots -->
+        <div class="slideshow_container slideshow_width">
+            <div class="mySlides_dialogueEditor">
+                <img src="Images/Dialogue_Editor/1.png" alt="Editor Window" class="slide_image">
+            </div>
+            <div class="mySlides_dialogueEditor">
+                <img src="Images/Dialogue_Editor/2.png" alt="Editor Window" class="slide_image">
+            </div>
+            <div class="mySlides_dialogueEditor">
+                <img src="Images/Dialogue_Editor/3.png" alt="Dialogue UI" class="slide_image">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1, 12)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 12)">&#10095;</a>
+        </div>
+        <div style="text-align:center">
+            <span class="dot dot_dialogueEditor" onclick="goToSlide(1, 12)"></span>
+            <span class="dot dot_dialogueEditor" onclick="goToSlide(2, 12)"></span>
+            <span class="dot dot_dialogueEditor" onclick="goToSlide(3, 12)"></span>
+        </div>
+
+        <!-- Git Button -->
+        <form action="https://github.com/ElvinNicholson/AT-UI-Toolkit.git" method="get" target="_blank" class="display_inline_block">
+            <button class="game_button game_button_git">
+                GitHub
+                <img src="Images/github-mark.svg" alt="GitHub" class="game_button_image">
+            </button>
+        </form>
+
+        <!-- YouTube Button -->
+        <form action="https://youtu.be/gLPr3XzjHJw" method="get" target="_blank" class="display_inline_block">
+            <button class="game_button game_button_youtube">
+                YouTube
+                <img src="Images/youtube_social_icon_dark.png" alt="YouTube" class="game_button_image">
+            </button>
+        </form>
+
+        <!-- Technical Report -->
+        <form action="https://drive.google.com/file/d/12r-qccCSbH_fiLUjPvdJyTVah0vEZ5fY/view?usp=sharing" method="get" target="_blank" class="display_inline_block">
+            <button class="game_button game_button_normal">
+                Report Document
+            </button>
+        </form>
+    </div>
+</div>
+
 <!-- Afterlife Unity -->
 <div class="custom_border align_center">
     <img src="Images/Afterlife_Unity/Thumbnail.png" alt="Afterlife Unity" class="game_image">
@@ -330,8 +392,7 @@
     <!-- Read More Section -->
     <div id="more_afterlife_unity" class="game_read_more">
         <p class="game_body">Afterlife in Unity is a recreation of the Afterlife game made by LucasArts made in 2 weeks with a team of 6 people as a university project. The aim of the project is to create a rapid alpha build of the game in Unity as a preparation for porting it to DirectX 11. Essentially, Afterlife is an isometric city builder, but you are managing both heaven and hell which have different requirements to earn the most amount of money.</p>
-        <p class="game_body">In this project, I was responsible for creating the entire building system and the functionalities for all of the buildings in the game. The building system consists of the tilemaps for both planes, how the player interacts with the map, the zone systems, and the making the road sprites automatically adjust themselves accordingly when other roads around them are added or removed.</p>
-        <p class="game_body">I also took the role of managing the GitHub repository used throughout this entire project, such as merging branches together and solving merge conflicts.</p>
+        <p class="game_body">In this project, I was responsible for creating the entire building system and the functionalities for the buildings. The building system consists of the tilemaps for both planes, how the player interacts with the map, the zone systems, and the making the road sprites automatically adjust themselves accordingly when other roads around them are added or removed.</p>
 
         <!-- Screenshots -->
         <div class="slideshow_container slideshow_width">
@@ -389,7 +450,6 @@
     <div class="game_header col-8">Afterlife in DirectX 11</div>
     <div class="game_box">C++</div>
     <div class="game_box">DirectX 11</div>
-    <div class="game_box">In Development</div>
     <div class="game_subheader">A recreation of the
         <a href="https://store.steampowered.com/app/557240/Afterlife/" target="_blank" class="game_link">Afterlife</a>
         game, made from the ground up in DirectX 11 with C++.</div>
@@ -398,9 +458,9 @@
     <!-- Read More Section -->
     <div id="more_afterlife_directx" class="game_read_more">
         <p class="game_body">Afterlife in DirectX 11 is a recreation of the Afterlife game made in DirectX 11 with C++. This part of a university assignment and was done by a group of 5 people over 4 months. The assignment simulates the environment of a small game studio and follows the agile project management approach. As such, I learned a lot about team dynamics and got used to scrum meetings where the group discuss with each other regarding the progress of the project.</p>
-        <p class="game_body">In this project, I am responsible for creating the entire building system, a texture manager, and an isometric camera. The building system is built on a vertex-based quad game object that I made which can change its dimensions to fit a texture. This quad game object is used for the tilemap system and to display the buildings that appear in the game. I also worked on the functionalities of every unique building in the game and a supporting population system.</p>
+        <p class="game_body">In this project, I worked on creating the entire building system, a texture manager, and an isometric camera. The building system is built on a vertex-based quad game object that I made which can change its dimensions to fit a texture. This quad game object is used for the tilemap system and to display the buildings that appear in the game. I also worked on the functionalities of every unique building in the game and a supporting population system.</p>
         <p class="game_body">The textures used throughout the building system are managed by a texture manager that I made based on the flyweight design pattern. Essentially, the texture manager significantly reduces the memory usage from the game by sharing a reference to the texture amongst similar objects using C++ pointers. The texture manager that I made managed to reduce the memory usage of the game from around 3 GB to only 500 MB, and also significantly reduces the load time when starting the game.</p>
-        <p class="game_body">I was also responsible for creating the isometric camera for the game, which was done by creating an orthographic projection matrix and offsetting the camera from its target by a specific value which was calculated using trigonometric equations to achieve a 30 degrees isometric view. Moreover, I also worked on translating the 2D mouse position to a 3D in-game world position. This was done by un-projecting the 2D mouse position and using the result in a parametric equation to find the correct in-game world position.</p>
+        <p class="game_body">Another role I worked on was to create the isometric camera for the game. It was done by creating an orthographic projection matrix and offsetting the camera from its target by a specific value which was calculated using trigonometric equations to achieve a 30 degrees isometric view. Moreover, I also worked on translating the 2D mouse position to a 3D in-game world position. This was done by un-projecting the 2D mouse position and using the result in a parametric equation to find the correct in-game world position.</p>
         <p class="game_body">For more information, a <a href="https://github.com/jHompsUWE/Afterlife-Architects-v2/wiki" target="_blank" class="game_link">Wiki</a>
             , <a href="https://drive.google.com/file/d/1YtUh1DOro0zbODX515hgQbc7DWlnERd0/view?usp=sharing" target="_blank" class="game_link">Technical Report</a>
             , and <a href="https://drive.google.com/file/d/1ophy1rNW6Ft1RBCZa0gMDhrsVE3IOati/view?usp=sharing" target="_blank" class="game_link">Post-mortem</a> of the project is available.</p>
@@ -577,16 +637,16 @@
                 <img src="Images/ShutteredMinds/3.png" alt="Character Select" class="slide_image">
             </div>
 
-            <a class="prev" onclick="plusSlides(-1, 12)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1, 12)">&#10095;</a>
+            <a class="prev" onclick="plusSlides(-1, 11)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 11)">&#10095;</a>
         </div>
         <div style="text-align:center">
-            <span class="dot dot_shutteredMinds" onclick="goToSlide(1, 12)"></span>
-            <span class="dot dot_shutteredMinds" onclick="goToSlide(2, 12)"></span>
-            <span class="dot dot_shutteredMinds" onclick="goToSlide(3, 12)"></span>
-            <span class="dot dot_shutteredMinds" onclick="goToSlide(4, 12)"></span>
-            <span class="dot dot_shutteredMinds" onclick="goToSlide(5, 12)"></span>
-            <span class="dot dot_shutteredMinds" onclick="goToSlide(6, 12)"></span>
+            <span class="dot dot_shutteredMinds" onclick="goToSlide(1, 11)"></span>
+            <span class="dot dot_shutteredMinds" onclick="goToSlide(2, 11)"></span>
+            <span class="dot dot_shutteredMinds" onclick="goToSlide(3, 11)"></span>
+            <span class="dot dot_shutteredMinds" onclick="goToSlide(4, 11)"></span>
+            <span class="dot dot_shutteredMinds" onclick="goToSlide(5, 11)"></span>
+            <span class="dot dot_shutteredMinds" onclick="goToSlide(6, 11)"></span>
         </div>
 
         <!-- Git Button -->
@@ -834,55 +894,6 @@
 
         <!-- YouTube Button -->
         <form action="https://youtu.be/eRAhS73csP8" method="get" target="_blank" class="display_inline_block">
-            <button class="game_button game_button_youtube">
-                YouTube
-                <img src="Images/youtube_social_icon_dark.png" alt="YouTube" class="game_button_image">
-            </button>
-        </form>
-    </div>
-</div>
-
-<!-- Pong -->
-<div class="custom_border align_center">
-    <img src="Images/Pong/Thumbnail.png" alt="Platformer" class="game_image">
-    <div class="game_header col-8">Pong in C++</div>
-    <div class="game_box">C++</div>
-    <div class="game_box">SFML</div>
-    <div class="game_subheader">A classic Pong game with a 1vBot or 1v1 local multiplayer game mode, made in C++ using SFML.</div>
-    <button id="button_pong" class="game_button_read_more">Read more...</button>
-
-    <!-- Read More Section -->
-    <div id="more_pong" class="game_read_more">
-        <p class="game_body">A recreation of the classic Pong game that can be played solo against a bot or with two people with local multiplayer. The AI for the bot was made by simply determining where the position of the ball is and moving the paddle up and down according to the Y-coordinate of the ball. To make it fair for the player, the bot will only be able to detect the ball if it is within the bot’s side of the table.</p>
-        <p class="game_body">The game also has barriers behind each paddle that can reflect the ball once if the player misses it. The collision of the ball and the paddle was done using a simple 2D box collision; however, the game can detect which part of the paddle is in contact with the ball and alter the direction of the ball. For example, if the ball hits the top part of the paddle, it will bounce up and away from the paddle. If the ball hits the paddle in the middle, it will bounce normally.</p>
-
-        <!-- Screenshots -->
-        <div class="slideshow_container slideshow_width">
-            <div class="mySlides_pong">
-                <img src="Images/Pong/Gameplay.png" alt="Title" class="slide_image">
-            </div>
-            <div class="mySlides_pong">
-                <img src="Images/Pong/Select.png" alt="Character Select" class="slide_image">
-            </div>
-
-            <a class="prev" onclick="plusSlides(-1, 11)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1, 11)">&#10095;</a>
-        </div>
-        <div style="text-align:center">
-            <span class="dot dot_pong" onclick="goToSlide(1, 11)"></span>
-            <span class="dot dot_pong" onclick="goToSlide(2, 11)"></span>
-        </div>
-
-        <!-- Git Button -->
-        <form action="https://github.com/ElvinNicholson/Pong-Game.git" method="get" target="_blank" class="display_inline_block">
-            <button class="game_button game_button_git">
-                GitHub
-                <img src="Images/github-mark.svg" alt="GitHub" class="game_button_image">
-            </button>
-        </form>
-
-        <!-- YouTube Button -->
-        <form action="https://youtu.be/JYkXATDtu4w" method="get" target="_blank" class="display_inline_block">
             <button class="game_button game_button_youtube">
                 YouTube
                 <img src="Images/youtube_social_icon_dark.png" alt="YouTube" class="game_button_image">
