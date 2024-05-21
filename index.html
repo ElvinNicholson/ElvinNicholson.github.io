@@ -67,7 +67,7 @@
 
 <!-- ZipZap -->
 <div class="custom_border align_center">
-    <img src="Images/ZipZap/Thumbnail.jpg" alt="TicTako" class="game_image">
+    <img src="Images/ZipZap/Thumbnail.jpg" alt="Project ZipZap" class="game_image">
     <div class="game_header col-8">Project ZipZap</div>
     <div class="game_box">C#</div>
     <div class="game_box">Unity</div>
@@ -77,8 +77,8 @@
     <!-- Read More Section -->
     <div id="more_zipZap" class="game_read_more">
         <p class="game_body">Project ZipZap is an isometric fast-paced movement-based combat game set in a robotic dystopia city. The project was made by a group of 11 developers over 7 months. The game features 5 hand crafted levels and a boss fight. Players are able to use dash abilities to dodge attacks and deal damage to enemies. There are 3 dashes, each with their own unique abilities and ultimate that can synergize with each other.</p>
-        <p class="game_body">In this project, I worked on the player functionalities, player VFX and the boss’ procedural animation. The player uses standard Unity character controller as its base while the different dashes inherit from a parent dash class. The player also uses animation keyframes during dashes to ensure that the VFX and other functionalities line up perfectly with the animation. </p>
-        <p class="game_body">The VFX that I worked on was made using a combination of Shader Graph and VFX Graph. Some of the VFX such as the wind effect from dashes, stamina ring around the player and time capsules uses models with custom UV to line up the textures from Shader Graph. The final boss has procedural animation made using inverse kinematics. </p>
+        <p class="game_body">In this project, I worked on the player functionalities, player VFX and the boss’ procedural animation. The player uses standard Unity character controller as its base while the different dashes inherit from a parent dash class. The player also uses animation keyframes during dashes to ensure that the VFX and other functionalities line up perfectly with the animation.</p>
+        <p class="game_body">The VFX that I worked on was made using a combination of Shader Graph and VFX Graph. Some of the VFX such as the wind effect from dashes, stamina ring around the player and time capsules uses models with custom UV to line up the textures from Shader Graph. The final boss has procedural animation made using inverse kinematics.</p>
 
         <!-- Screenshots -->
         <div class="slideshow_container slideshow_width">
@@ -108,13 +108,63 @@
         <!-- Itch.Io Button -->
         <form action="https://studio4point8.itch.io/project-zipzap" method="get" target="_blank" class="display_inline_block">
             <button class="game_button game_button_itch">
-                Play Now
+                itch.io
                 <img src="Images/itchio-textless-white.svg" alt="Itch.IO" class="game_button_image">
             </button>
         </form>
 
         <!-- YouTube Button -->
         <form action="https://youtu.be/IN_MXhfk0n8?si=fCSBDR7ua6ODx26A" method="get" target="_blank" class="display_inline_block">
+            <button class="game_button game_button_youtube">
+                YouTube
+                <img src="Images/youtube_social_icon_dark.png" alt="YouTube" class="game_button_image">
+            </button>
+        </form>
+    </div>
+</div>
+
+<!-- StageCraft -->
+<div class="custom_border align_center">
+    <img src="Images/Stagecraft/Thumbnail.png" alt="StageCraft" class="game_image">
+    <div class="game_header col-8">StageCraft</div>
+    <div class="game_box">C#</div>
+    <div class="game_box">Unity</div>
+    <div class="game_box">VR</div>
+    <div class="game_subheader">StageCraft is a VR application that allows students to practice their presentation skills in front of an mock audience that can respond with questions.</div>
+    <button id="button_stagecraft" class="game_button_read_more">Read more...</button>
+
+    <!-- Read More Section -->
+    <div id="more_stagecraft" class="game_read_more">
+        <p class="game_body">StageCraft is a VR application that allows students to practice their presentation skills in front of an mock audience that can respond with questions and give feedback to the presenter. The project is a paid client work funded by UWE and was developed by a team of two. The project utilizes OpenAI Whisper to transcribe the presentation audio and is then questions are generated using GPT 3.5 based on the contents of the presentation. The questions are then sent to AWS Polly text-to-speech system so the audience members can verbally interact with the presenter.</p>
+        <p class="game_body">Throughout the presentation various data are collected to find points of improvement for the presenter. The system will detect how often filler words are used and long pauses during the presentation. At the end, a heatmap of where the presenter is looking will be generated based on head tracking data.</p>
+
+        <!-- Screenshots -->
+        <div class="slideshow_container slideshow_width">
+            <div class="mySlides_stagecraft">
+                <img src="Images/Stagecraft/1.png" alt="Title" class="slide_image">
+            </div>
+            <div class="mySlides_stagecraft">
+                <img src="Images/Stagecraft/2.png" alt="Character Select" class="slide_image">
+            </div>
+            <div class="mySlides_stagecraft">
+                <img src="Images/Stagecraft/3.png" alt="Gameplay" class="slide_image">
+            </div>
+            <div class="mySlides_stagecraft">
+                <img src="Images/Stagecraft/4.png" alt="Game Over" class="slide_image">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1, 14)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 14)">&#10095;</a>
+        </div>
+        <div style="text-align:center">
+            <span class="dot dot_stagecraft" onclick="goToSlide(1, 14)"></span>
+            <span class="dot dot_stagecraft" onclick="goToSlide(2, 14)"></span>
+            <span class="dot dot_stagecraft" onclick="goToSlide(3, 14)"></span>
+            <span class="dot dot_stagecraft" onclick="goToSlide(4, 14)"></span>
+        </div>
+
+        <!-- YouTube Button -->
+        <form action="https://youtu.be/RmBKSsU8D-s?si=wwSmM-x25x1xChpZ" method="get" target="_blank" class="display_inline_block">
             <button class="game_button game_button_youtube">
                 YouTube
                 <img src="Images/youtube_social_icon_dark.png" alt="YouTube" class="game_button_image">
@@ -167,7 +217,7 @@
         <!-- Itch.Io Button -->
         <form action="https://salty-pizza.itch.io/tictako" method="get" target="_blank" class="display_inline_block">
             <button class="game_button game_button_itch">
-                Play Now
+                itch.io
                 <img src="Images/itchio-textless-white.svg" alt="Itch.IO" class="game_button_image">
             </button>
         </form>
