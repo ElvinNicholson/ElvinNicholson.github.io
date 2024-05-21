@@ -27,7 +27,7 @@
     <p class="header">Hello, I'm Elvin Nicholson</p>
     <p class="reduce_margin_top sub_header">I'm currently studying Games Technology in UWE Bristol</p>
     <div class="text_bold text_grey reduce_margin_top sub_header">
-        <p>I have a strong background in game programming, with a lot of experience in Unity, lower level engines and creating Windows apps that helps with the development of games. I received <a href="https://drive.google.com/file/d/1FIK2ViCSsMeBfPbkke5k39-drfHxiN16/view?usp=share_link" target="_blank" class="game_link">The Dean's List award</a> for my academic achievements in the 2021-22 academic year.</p>
+        <p>I have a strong background in game programming, with experience in Unity, lower level engines and creating developer tools. I received <a href="https://drive.google.com/file/d/1FIK2ViCSsMeBfPbkke5k39-drfHxiN16/view?usp=share_link" target="_blank" class="game_link">The Dean's List award</a> for my academic achievements in the 2021-22 academic year.</p>
     </div>
 
     <form action="https://github.com/ElvinNicholson" method="get" target="_blank" style="display: inline-block">
@@ -64,6 +64,64 @@
 </div>
 
 <div class="row">
+
+<!-- ZipZap -->
+<div class="custom_border align_center">
+    <img src="Images/ZipZap/Thumbnail.jpg" alt="TicTako" class="game_image">
+    <div class="game_header col-8">Project ZipZap</div>
+    <div class="game_box">C#</div>
+    <div class="game_box">Unity</div>
+    <div class="game_subheader">Project ZipZap is an isometric fast-paced movement-based combat game.</div>
+    <button id="button_zipZap" class="game_button_read_more">Read more...</button>
+
+    <!-- Read More Section -->
+    <div id="more_zipZap" class="game_read_more">
+        <p class="game_body">Project ZipZap is an isometric fast-paced movement-based combat game set in a robotic dystopia city. The project was made by a group of 11 developers over 7 months. The game features 5 hand crafted levels and a boss fight. Players are able to use dash abilities to dodge attacks and deal damage to enemies. There are 3 dashes, each with their own unique abilities and ultimate that can synergize with each other.</p>
+        <p class="game_body">In this project, I worked on the player functionalities, player VFX and the boss’ procedural animation. The player uses standard Unity character controller as its base while the different dashes inherit from a parent dash class. The player also uses animation keyframes during dashes to ensure that the VFX and other functionalities line up perfectly with the animation. </p>
+        <p class="game_body">The VFX that I worked on was made using a combination of Shader Graph and VFX Graph. Some of the VFX such as the wind effect from dashes, stamina ring around the player and time capsules uses models with custom UV to line up the textures from Shader Graph. The final boss has procedural animation made using inverse kinematics. </p>
+
+        <!-- Screenshots -->
+        <div class="slideshow_container slideshow_width">
+            <div class="mySlides_zipZap">
+                <img src="Images/ZipZap/Boss1.png" alt="Title" class="slide_image">
+            </div>
+            <div class="mySlides_zipZap">
+                <img src="Images/ZipZap/Boss2.png" alt="Character Select" class="slide_image">
+            </div>
+            <div class="mySlides_zipZap">
+                <img src="Images/ZipZap/Combat1.png" alt="Gameplay" class="slide_image">
+            </div>
+            <div class="mySlides_zipZap">
+                <img src="Images/ZipZap/Combat2.png" alt="Game Over" class="slide_image">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1, 13)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 13)">&#10095;</a>
+        </div>
+        <div style="text-align:center">
+            <span class="dot dot_zipZap" onclick="goToSlide(1, 13)"></span>
+            <span class="dot dot_zipZap" onclick="goToSlide(2, 13)"></span>
+            <span class="dot dot_zipZap" onclick="goToSlide(3, 13)"></span>
+            <span class="dot dot_zipZap" onclick="goToSlide(4, 13)"></span>
+        </div>
+
+        <!-- Itch.Io Button -->
+        <form action="https://studio4point8.itch.io/project-zipzap" method="get" target="_blank" class="display_inline_block">
+            <button class="game_button game_button_itch">
+                Play Now
+                <img src="Images/itchio-textless-white.svg" alt="Itch.IO" class="game_button_image">
+            </button>
+        </form>
+
+        <!-- YouTube Button -->
+        <form action="https://youtu.be/IN_MXhfk0n8?si=fCSBDR7ua6ODx26A" method="get" target="_blank" class="display_inline_block">
+            <button class="game_button game_button_youtube">
+                YouTube
+                <img src="Images/youtube_social_icon_dark.png" alt="YouTube" class="game_button_image">
+            </button>
+        </form>
+    </div>
+</div>
 
 <!-- TicTako -->
 <div class="custom_border align_center">
