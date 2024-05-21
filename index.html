@@ -173,6 +173,71 @@
     </div>
 </div>
 
+<!-- ML-Agents -->
+<div class="custom_border align_center">
+    <img src="Images/MLAgents/Thumbnail.png" alt="ML-Agents" class="game_image">
+    <div class="game_header col-8">ML-Agents</div>
+    <div class="game_box">C#</div>
+    <div class="game_box">Unity</div>
+    <div class="game_box">Machine Learning</div>
+    <div class="game_subheader">This project aims to determine whether it is possible to train a single machine learning agent to play multiple distinct games.</div>
+    <button id="button_mlagent" class="game_button_read_more">Read more...</button>
+
+    <!-- Read More Section -->
+    <div id="more_mlagent" class="game_read_more">
+        <p class="game_body">This project aims to determine whether it is possible to train a single machine learning agent to play multiple distinct games. The project uses the Machine Learning Agents (ML-Agents) Toolkit to train agents within Unity. 4 Agents have been trained to play a simple snake and flappy bird game for 2 million episodes. The first two agent; the SnakeAgent and BirdAgent were trained only in their respective game as a control group to determine the expected reward when trained under normal conditions.</p>
+        <p class="game_body">The SnakeAndBirdAgent was trained to play both games alternatively. The agent was trained in snake game for 500 thousand steps, then it was trained for another 500 thousand steps in flappy bird. This process repeats until a sum of 2 million steps. Another agent, the SnakeWithBirdAgent was trained in both games simultaneously for the same number of steps. In the end, the SnakeAndBirdAgent was only able to play the last game it was trained on, while the SnakeWithBirdAgent was able to perform well in both games simultaneously.</p>
+
+        <!-- Screenshots -->
+        <div class="slideshow_container slideshow_width">
+            <div class="mySlides_mlagent">
+                <img src="Images/MLAgents/1.png" alt="Title" class="slide_image">
+            </div>
+            <div class="mySlides_mlagent">
+                <img src="Images/MLAgents/2.png" alt="Character Select" class="slide_image">
+            </div>
+            <div class="mySlides_mlagent">
+                <img src="Images/MLAgents/3.png" alt="Gameplay" class="slide_image">
+            </div>
+            <div class="mySlides_mlagent">
+                <img src="Images/MLAgents/4.png" alt="Game Over" class="slide_image">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1, 15)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 15)">&#10095;</a>
+        </div>
+        <div style="text-align:center">
+            <span class="dot dot_mlagent" onclick="goToSlide(1, 15)"></span>
+            <span class="dot dot_mlagent" onclick="goToSlide(2, 15)"></span>
+            <span class="dot dot_mlagent" onclick="goToSlide(3, 15)"></span>
+            <span class="dot dot_mlagent" onclick="goToSlide(4, 15)"></span>
+        </div>
+
+        <!-- Git Button -->
+        <form action="https://github.com/ElvinNicholson/AT-Reinforcement-Learning.git" method="get" target="_blank" class="display_inline_block">
+            <button class="game_button game_button_git">
+                GitHub
+                <img src="Images/github-mark.svg" alt="GitHub" class="game_button_image">
+            </button>
+        </form>
+
+        <!-- YouTube Button -->
+        <form action="https://youtu.be/M1yjPszDAfg?si=u96QLj0RWnB49FzV&t=198" method="get" target="_blank" class="display_inline_block">
+            <button class="game_button game_button_youtube">
+                YouTube
+                <img src="Images/youtube_social_icon_dark.png" alt="YouTube" class="game_button_image">
+            </button>
+        </form>
+
+        <!-- Documents Button -->
+        <form action="https://drive.google.com/file/d/1cGdqbBidYw19Escxb8kogQYH-itvzo87/view?usp=sharing" method="get" target="_blank" class="display_inline_block">
+            <button class="game_button game_button_normal">
+                Report Document
+            </button>
+        </form>
+    </div>
+</div>
+
 <!-- TicTako -->
 <div class="custom_border align_center">
     <img src="Images/TicTako/TicTako.png" alt="TicTako" class="game_image">
