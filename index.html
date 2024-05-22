@@ -689,13 +689,6 @@
                 <img src="Images/youtube_social_icon_dark.png" alt="YouTube" class="game_button_image">
             </button>
         </form>
-
-        <!-- Dev Blog -->
-        <form action="https://elvinnicholson.wordpress.com/" method="get" target="_blank" class="display_inline_block">
-            <button class="game_button game_button_normal">
-                Dev Blog
-            </button>
-        </form>
     </div>
 </div>
 
@@ -716,9 +709,6 @@
         <p class="game_body">In this project, I worked on creating the entire building system, a texture manager, and an isometric camera. The building system is built on a vertex-based quad game object that I made which can change its dimensions to fit a texture. This quad game object is used for the tilemap system and to display the buildings that appear in the game. I also worked on the functionalities of every unique building in the game and a supporting population system.</p>
         <p class="game_body">The textures used throughout the building system are managed by a texture manager that I made based on the flyweight design pattern. Essentially, the texture manager significantly reduces the memory usage from the game by sharing a reference to the texture amongst similar objects using C++ pointers. The texture manager that I made managed to reduce the memory usage of the game from around 3 GB to only 500 MB, and also significantly reduces the load time when starting the game.</p>
         <p class="game_body">Another role I worked on was to create the isometric camera for the game. It was done by creating an orthographic projection matrix and offsetting the camera from its target by a specific value which was calculated using trigonometric equations to achieve a 30 degrees isometric view. Moreover, I also worked on translating the 2D mouse position to a 3D in-game world position. This was done by un-projecting the 2D mouse position and using the result in a parametric equation to find the correct in-game world position.</p>
-        <p class="game_body">For more information, a <a href="https://github.com/jHompsUWE/Afterlife-Architects-v2/wiki" target="_blank" class="game_link">Wiki</a>
-            , <a href="https://drive.google.com/file/d/1YtUh1DOro0zbODX515hgQbc7DWlnERd0/view?usp=sharing" target="_blank" class="game_link">Technical Report</a>
-            , and <a href="https://drive.google.com/file/d/1ophy1rNW6Ft1RBCZa0gMDhrsVE3IOati/view?usp=sharing" target="_blank" class="game_link">Post-mortem</a> of the project is available.</p>
 
         <!-- Screenshots -->
         <div class="slideshow_container slideshow_width">
@@ -757,13 +747,6 @@
             </button>
         </form>
 
-        <!-- Dev Blog -->
-        <form action="https://elvinnicholson.wordpress.com/" method="get" target="_blank" class="display_inline_block">
-            <button class="game_button game_button_normal">
-                Dev Blog
-            </button>
-        </form>
-
         <!-- Wiki -->
         <form action="https://github.com/jHompsUWE/Afterlife-Architects-v2/wiki" method="get" target="_blank" class="display_inline_block">
             <button class="game_button game_button_normal">
@@ -775,13 +758,6 @@
         <form action="https://drive.google.com/file/d/1YtUh1DOro0zbODX515hgQbc7DWlnERd0/view?usp=sharing" method="get" target="_blank" class="display_inline_block">
             <button class="game_button game_button_normal">
                 Technical Report
-            </button>
-        </form>
-
-        <!-- Post-mortem -->
-        <form action="https://drive.google.com/file/d/1ophy1rNW6Ft1RBCZa0gMDhrsVE3IOati/view?usp=sharing" method="get" target="_blank" class="display_inline_block">
-            <button class="game_button game_button_normal">
-                Post-mortem
             </button>
         </form>
     </div>
