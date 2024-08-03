@@ -66,6 +66,7 @@
 <div class="row">
 
 <!-- ZipZap -->
+<a class="anchor" id="ZipZap"></a>
 <div class="custom_border align_center">
     <img src="Images/ZipZap/Thumbnail.jpg" alt="Project ZipZap" class="game_image">
     <div class="game_header col-8">Project ZipZap</div>
@@ -124,6 +125,7 @@
 </div>
 
 <!-- StageCraft -->
+<a class="anchor" id="StageCraft"></a>
 <div class="custom_border align_center">
     <img src="Images/Stagecraft/Thumbnail.png" alt="StageCraft" class="game_image">
     <div class="game_header col-8">StageCraft</div>
@@ -173,7 +175,71 @@
     </div>
 </div>
 
+<!-- Unity Dialogue Editor -->
+<a class="anchor" id="UnityDialogueEditor"></a>
+<div class="custom_border align_center">
+    <img src="Images/Dialogue_Editor/Thumbnail.png" alt="Unity Dialogue Editor" class="game_image">
+    <div class="game_header col-8">Unity Dialogue Editor</div>
+    <div class="game_box">C#</div>
+    <div class="game_box">Unity</div>
+    <div class="game_subheader">A dialogue editor development tool made using Unity's graphview system.</div>
+    <button id="button_dialogueEditor" class="game_button_read_more">Read more...</button>
+
+    <!-- Read More Section -->
+    <div id="more_dialogueEditor" class="game_read_more">
+        <p class="game_body">Unity Dialogue Editor is a tool made within the Unity Editor using the graphview system which allow developers to create dialogue trees without coding. It uses a node based system similar to Unity's Shader Graph and VFX Graph.</p>
+        <p class="game_body">The editor consists of 4 dialogue nodes: Start, End, Single and Reply nodes. Start and End nodes simply tells the system where the dialogue starts and ends, while the Single node displays a dialogue text. The Reply node allows the player to select a reply during a dialogue which can be used to create branching dialogue paths based on the player's choices.</p>
+        <p class="game_body">The system also contains a simple in-game dialogue UI which reads in data from dialogue trees made using the tool.</p>
+        <p class="game_body">For more information, a report of this tool is available <a href="https://drive.google.com/file/d/12r-qccCSbH_fiLUjPvdJyTVah0vEZ5fY/view?usp=sharing" target="_blank" class="game_link">here</a>.</p>
+
+        <!-- Screenshots -->
+        <div class="slideshow_container slideshow_width">
+            <div class="mySlides_dialogueEditor">
+                <img src="Images/Dialogue_Editor/1.png" alt="Editor Window" class="slide_image">
+            </div>
+            <div class="mySlides_dialogueEditor">
+                <img src="Images/Dialogue_Editor/2.png" alt="Editor Window" class="slide_image">
+            </div>
+            <div class="mySlides_dialogueEditor">
+                <img src="Images/Dialogue_Editor/3.png" alt="Dialogue UI" class="slide_image">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1, 12)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 12)">&#10095;</a>
+        </div>
+        <div style="text-align:center">
+            <span class="dot dot_dialogueEditor" onclick="goToSlide(1, 12)"></span>
+            <span class="dot dot_dialogueEditor" onclick="goToSlide(2, 12)"></span>
+            <span class="dot dot_dialogueEditor" onclick="goToSlide(3, 12)"></span>
+        </div>
+
+        <!-- Git Button -->
+        <form action="https://github.com/ElvinNicholson/AT-UI-Toolkit.git" method="get" target="_blank" class="display_inline_block">
+            <button class="game_button game_button_git">
+                GitHub
+                <img src="Images/github-mark.svg" alt="GitHub" class="game_button_image">
+            </button>
+        </form>
+
+        <!-- YouTube Button -->
+        <form action="https://youtu.be/gLPr3XzjHJw" method="get" target="_blank" class="display_inline_block">
+            <button class="game_button game_button_youtube">
+                YouTube
+                <img src="Images/youtube_social_icon_dark.png" alt="YouTube" class="game_button_image">
+            </button>
+        </form>
+
+        <!-- Technical Report -->
+        <form action="https://drive.google.com/file/d/12r-qccCSbH_fiLUjPvdJyTVah0vEZ5fY/view?usp=sharing" method="get" target="_blank" class="display_inline_block">
+            <button class="game_button game_button_normal">
+                Report Document
+            </button>
+        </form>
+    </div>
+</div>
+
 <!-- ML-Agents -->
+<a class="anchor" id="MLAgents"></a>
 <div class="custom_border align_center">
     <img src="Images/MLAgents/Thumbnail.png" alt="ML-Agents" class="game_image">
     <div class="game_header col-8">ML-Agents</div>
@@ -238,69 +304,8 @@
     </div>
 </div>
 
-<!-- Unity Dialogue Editor -->
-<div class="custom_border align_center">
-    <img src="Images/Dialogue_Editor/Thumbnail.png" alt="Unity Dialogue Editor" class="game_image">
-    <div class="game_header col-8">Unity Dialogue Editor</div>
-    <div class="game_box">C#</div>
-    <div class="game_box">Unity</div>
-    <div class="game_subheader">A dialogue editor development tool made using Unity's graphview system.</div>
-    <button id="button_dialogueEditor" class="game_button_read_more">Read more...</button>
-
-    <!-- Read More Section -->
-    <div id="more_dialogueEditor" class="game_read_more">
-        <p class="game_body">Unity Dialogue Editor is a tool made within the Unity Editor using the graphview system which allow developers to create dialogue trees without coding. It uses a node based system similar to Unity's Shader Graph and VFX Graph.</p>
-        <p class="game_body">The editor consists of 4 dialogue nodes: Start, End, Single and Reply nodes. Start and End nodes simply tells the system where the dialogue starts and ends, while the Single node displays a dialogue text. The Reply node allows the player to select a reply during a dialogue which can be used to create branching dialogue paths based on the player's choices.</p>
-        <p class="game_body">The system also contains a simple in-game dialogue UI which reads in data from dialogue trees made using the tool.</p>
-        <p class="game_body">For more information, a report of this tool is available <a href="https://drive.google.com/file/d/12r-qccCSbH_fiLUjPvdJyTVah0vEZ5fY/view?usp=sharing" target="_blank" class="game_link">here</a>.</p>
-
-        <!-- Screenshots -->
-        <div class="slideshow_container slideshow_width">
-            <div class="mySlides_dialogueEditor">
-                <img src="Images/Dialogue_Editor/1.png" alt="Editor Window" class="slide_image">
-            </div>
-            <div class="mySlides_dialogueEditor">
-                <img src="Images/Dialogue_Editor/2.png" alt="Editor Window" class="slide_image">
-            </div>
-            <div class="mySlides_dialogueEditor">
-                <img src="Images/Dialogue_Editor/3.png" alt="Dialogue UI" class="slide_image">
-            </div>
-
-            <a class="prev" onclick="plusSlides(-1, 12)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1, 12)">&#10095;</a>
-        </div>
-        <div style="text-align:center">
-            <span class="dot dot_dialogueEditor" onclick="goToSlide(1, 12)"></span>
-            <span class="dot dot_dialogueEditor" onclick="goToSlide(2, 12)"></span>
-            <span class="dot dot_dialogueEditor" onclick="goToSlide(3, 12)"></span>
-        </div>
-
-        <!-- Git Button -->
-        <form action="https://github.com/ElvinNicholson/AT-UI-Toolkit.git" method="get" target="_blank" class="display_inline_block">
-            <button class="game_button game_button_git">
-                GitHub
-                <img src="Images/github-mark.svg" alt="GitHub" class="game_button_image">
-            </button>
-        </form>
-
-        <!-- YouTube Button -->
-        <form action="https://youtu.be/gLPr3XzjHJw" method="get" target="_blank" class="display_inline_block">
-            <button class="game_button game_button_youtube">
-                YouTube
-                <img src="Images/youtube_social_icon_dark.png" alt="YouTube" class="game_button_image">
-            </button>
-        </form>
-
-        <!-- Technical Report -->
-        <form action="https://drive.google.com/file/d/12r-qccCSbH_fiLUjPvdJyTVah0vEZ5fY/view?usp=sharing" method="get" target="_blank" class="display_inline_block">
-            <button class="game_button game_button_normal">
-                Report Document
-            </button>
-        </form>
-    </div>
-</div>
-
 <!-- CCTP -->
+<a class="anchor" id="CCTP"></a>
 <div class="custom_border align_center">
     <img src="Images/CCTP/Thumbnail.png" alt="ML-Agents" class="game_image">
     <div class="game_header col-8">Forced Perspective in VR</div>
@@ -382,317 +387,8 @@
     </div>
 </div>
 
-<!-- TicTako -->
-<div class="custom_border align_center">
-    <img src="Images/TicTako/TicTako.png" alt="TicTako" class="game_image">
-    <div class="game_header col-8">TicTako</div>
-    <div class="game_box">C#</div>
-    <div class="game_box">Unity</div>
-    <div class="game_box">WebGL</div>
-    <div class="game_subheader">A Tic-Tac-Toe fan game of the VTuber group Hololive EN, also the first game I have ever released.</div>
-    <button id="button_tictako" class="game_button_read_more">Read more...</button>
-
-    <!-- Read More Section -->
-    <div id="more_tictako" class="game_read_more">
-        <p class="game_body">TicTako is a classic Tic-Tac-Toe game themed around the popular VTuber group Hololive EN. This was the first ever game I have ever published and is also my introduction to game programming. The game was finished a month after I started development, and I did a lot of research and self-study regarding Unity, C#, and the algorithm used for the AI in the game.</p>
-        <p class="game_body">TikTako can be played solo against an AI that uses the minimax algorithm to determine its best move, and I added some shortcut within the algorithm to significantly reduce the time it takes to calculate. The game can also be played by two players through local multiplayer. All the assets within the game are fully hand-drawn by me, with a lot of animated elements.</p>
-        <p class="game_body">The game was published back on the 4th of August 2021, and within the first week of its release on itch io, it garnered over 1,400 plays. After its initial release, the game has been getting a steady number of players, and as of 2023, it has been played over 3,000 times.</p>
-
-        <!-- Screenshots -->
-        <div class="slideshow_container slideshow_width">
-            <div class="mySlides_tictako">
-                <img src="Images/TicTako/Title.png" alt="Title" class="slide_image">
-            </div>
-            <div class="mySlides_tictako">
-                <img src="Images/TicTako/Select.png" alt="Character Select" class="slide_image">
-            </div>
-            <div class="mySlides_tictako">
-                <img src="Images/TicTako/Gameplay.png" alt="Gameplay" class="slide_image">
-            </div>
-            <div class="mySlides_tictako">
-                <img src="Images/TicTako/Win.png" alt="Game Over" class="slide_image">
-            </div>
-
-            <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
-        </div>
-        <div style="text-align:center">
-            <span class="dot dot_tictako" onclick="goToSlide(1, 0)"></span>
-            <span class="dot dot_tictako" onclick="goToSlide(2, 0)"></span>
-            <span class="dot dot_tictako" onclick="goToSlide(3, 0)"></span>
-            <span class="dot dot_tictako" onclick="goToSlide(4, 0)"></span>
-        </div>
-
-        <!-- Itch.Io Button -->
-        <form action="https://salty-pizza.itch.io/tictako" method="get" target="_blank" class="display_inline_block">
-            <button class="game_button game_button_itch">
-                itch.io
-                <img src="Images/itchio-textless-white.svg" alt="Itch.IO" class="game_button_image">
-            </button>
-        </form>
-
-
-    </div>
-</div>
-
-<!-- Race Unity -->
-<a class="anchor" id="Race_Unity"></a>
-<div class="custom_border align_center">
-    <img src="Images/Race_Unity/Thumbnail.png" alt="Race Creator Unity" class="game_image">
-    <div class="game_header col-8">Unity Race Creator</div>
-    <div class="game_box">C#</div>
-    <div class="game_box">Unity</div>
-    <div class="game_subheader">A designer facing tool that allows for the creation of a racing system within Unity without having to code anything.</div>
-    <button id="button_race_unity" class="game_button_read_more">Read more...</button>
-
-    <!-- Read More Section -->
-    <div id="more_race_unity" class="game_read_more">
-        <p class="game_body">The Unity Race Creator is a designer facing tool created within Unity which allows designers with no programming knowledge to create and modify a racetrack on a pre-existing game world. This was achieved by utilizing the custom window feature within the Unity engine. The Race Creator custom window has a number of options that is used to initialize the race, such as the number of checkpoints and the timer settings.</p>
-        <p class="game_body">These values and more customization features can be found from the custom inspector that appears when selecting the race game object created by the Race Creator. Level designers can easily change the mesh, texture, and manage each checkpoint from this custom inspector without having to do any coding.</p>
-        <p class="game_body">The Unity Race Creator also comes with a standard UI which displays crucial information such as the timer, lap counter, minimap and a waypoint to the next gate. All these values are stored in a separate class from the core racing system so a UI designer can easily use these values to create their own UI without having to interact with the source code of the game. The files of the project follows the structure of a Unity custom package, so it can be easily distributed to other computers or Unity projects.</p>
-        <p class="game_body">For more information regarding this project, please refer to the <a class="text_bold">Unity Implementation</a> section (Page 4) within the <a href="https://drive.google.com/file/d/1Q_9QjbVKZhqRwVOD7_r1lmmlruCbvKvv/view?usp=share_link" target="_blank" class="game_link">Report Document</a>.</p>
-
-        <!-- Screenshots -->
-        <div class="slideshow_container slideshow_width">
-            <div class="mySlides_raceUnity">
-                <img src="Images/Race_Unity/Scene.png" alt="Title" class="slide_image">
-            </div>
-            <div class="mySlides_raceUnity">
-                <img src="Images/Race_Unity/Gameplay.png" alt="Character Select" class="slide_image">
-            </div>
-            <div class="mySlides_raceUnity">
-                <img src="Images/Race_Unity/Inspector.png" alt="Gameplay" class="slide_image">
-            </div>
-            <div class="mySlides_raceUnity">
-                <img src="Images/Race_Unity/Custom_Window.png" alt="Game Over" class="slide_image">
-            </div>
-
-            <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
-        </div>
-        <div style="text-align:center">
-            <span class="dot dot_raceUnity" onclick="goToSlide(1, 1)"></span>
-            <span class="dot dot_raceUnity" onclick="goToSlide(2, 1)"></span>
-            <span class="dot dot_raceUnity" onclick="goToSlide(3, 1)"></span>
-            <span class="dot dot_raceUnity" onclick="goToSlide(4, 1)"></span>
-        </div>
-
-        <!-- Git Button -->
-        <form action="https://github.com/ElvinNicholson/GEA-Unity-Race.git" method="get" target="_blank" class="display_inline_block">
-            <button class="game_button game_button_git">
-                GitHub
-                <img src="Images/github-mark.svg" alt="GitHub" class="game_button_image">
-            </button>
-        </form>
-
-        <!-- YouTube Button -->
-        <form action="https://youtu.be/fpi95WXfrsg" method="get" target="_blank" class="display_inline_block">
-            <button class="game_button game_button_youtube">
-                YouTube
-                <img src="Images/youtube_social_icon_dark.png" alt="YouTube" class="game_button_image">
-            </button>
-        </form>
-
-        <!-- Documents Button -->
-        <form action="https://drive.google.com/file/d/1Q_9QjbVKZhqRwVOD7_r1lmmlruCbvKvv/view?usp=share_link" method="get" target="_blank" class="display_inline_block">
-            <button class="game_button game_button_normal">
-                Report Document
-            </button>
-        </form>
-    </div>
-</div>
-
-<!-- Race RayLib -->
-<a class="anchor" id="RayLib_Race_Creator"></a>
-<div class="custom_border align_center">
-    <img src="Images/Race_RayLib/Thumbnail.png" alt="Race Creator RayLib" class="game_image">
-    <div class="game_header col-8">RayLib Race Creator</div>
-    <div class="game_box">C++</div>
-    <div class="game_box">RayLib</div>
-    <div class="game_subheader">A system that allows for the creation of a racing system within RayLib that only requires minimal programming experience.</div>
-    <button id="button_race_raylib" class="game_button_read_more">Read more...</button>
-
-    <!-- Read More Section -->
-    <div id="more_race_raylib" class="game_read_more">
-        <p class="game_body">The RayLib Race Creator is similar to the Unity Race Creator, but its built on RayLib. RayLib is a low-level game engine with no interface, visual helpers, or editors like Unity, so everything in RayLib is done through C++ scripting. The biggest challenge of this project was creating an easy-to-use environment for level designers to create and modify a race without having to interact with the source code of the game. To tackle this problem, the <a href="#JSON_Level_Editor" class="game_link">JSON Level Editor</a> was made using Windows Presentation Foundation (WPF).</p>
-        <p class="game_body">Because RayLib has less features than Unity, I had to create my own system in order to replicate the features present within the Unity Race Creator. For example, a combination of linear and trigonometric equations was used to display the waypoint to the next checkpoint correctly. A similar system is also used in the pathfinding algorithm of the AI racers present within the game. The AI racers can automatically progress throughout the race and compete against the player. These AI racers also has an adjustable difficulty that can be tweaked through the <a href="#JSON_Level_Editor" class="game_link">JSON Level Editor</a>.</p>
-        <p class="game_body">More information regarding the algorithm used for the AI can be found in the <a class="text_bold">Racing Bots</a> section (Page 10) within the <a href="https://drive.google.com/file/d/1Q_9QjbVKZhqRwVOD7_r1lmmlruCbvKvv/view?usp=share_link" target="_blank" class="game_link">Report Document</a>.</p>
-        <p class="game_body">Since the scripting for RayLib is done in C++, I had access to pointers so all the assets for the race are managed using smart pointers. Meshes and textures are only loaded once at the initialization of a level and a reference to them is shared to all the checkpoints to avoid each checkpoints having their own mesh and texture, which leads to significantly better optimization.</p>
-
-        <!-- Screenshots -->
-        <div class="slideshow_container slideshow_width">
-            <div class="mySlides_raceRaylib">
-                <img src="Images/Race_RayLib/Gameplay.png" alt="Title" class="slide_image">
-            </div>
-            <div class="mySlides_raceRaylib">
-                <img src="Images/Race_RayLib/Scoreboard.png" alt="Character Select" class="slide_image">
-            </div>
-            <div class="mySlides_raceRaylib">
-                <img src="Images/Race_RayLib/Level2.png" alt="Gameplay" class="slide_image">
-            </div>
-
-            <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
-        </div>
-        <div style="text-align:center">
-            <span class="dot dot_raceRaylib" onclick="goToSlide(1, 2)"></span>
-            <span class="dot dot_raceRaylib" onclick="goToSlide(2, 2)"></span>
-            <span class="dot dot_raceRaylib" onclick="goToSlide(3, 2)"></span>
-        </div>
-
-        <!-- Git Button -->
-        <form action="https://github.com/ElvinNicholson/GEA-Raylib-Race.git" method="get" target="_blank" class="display_inline_block">
-            <button class="game_button game_button_git">
-                GitHub
-                <img src="Images/github-mark.svg" alt="GitHub" class="game_button_image">
-            </button>
-        </form>
-
-        <!-- YouTube Button -->
-        <form action="https://youtu.be/_8vnQRKcF40" method="get" target="_blank" class="display_inline_block">
-            <button class="game_button game_button_youtube">
-                YouTube
-                <img src="Images/youtube_social_icon_dark.png" alt="YouTube" class="game_button_image">
-            </button>
-        </form>
-
-        <!-- Documents Button -->
-        <form action="https://drive.google.com/file/d/1Q_9QjbVKZhqRwVOD7_r1lmmlruCbvKvv/view?usp=share_link" method="get" target="_blank" class="display_inline_block">
-            <button class="game_button game_button_normal">
-                Technical Report
-            </button>
-        </form>
-    </div>
-</div>
-
-<!-- JSON Level Editor -->
-<a class="anchor" id="JSON_Level_Editor"></a>
-<div class="custom_border align_center">
-    <img src="Images/Race_Editor/Thumbnail.png" alt="JSON Level Editor" class="game_image">
-    <div class="game_header col-8">JSON Level Editor</div>
-    <div class="game_box">C#</div>
-    <div class="game_box">XAML</div>
-    <div class="game_box">WPF</div>
-    <div class="game_subheader">An application made using WPF to easily create and modify a JSON file used for a game level through an interactive UI.</div>
-    <button id="button_race_editor" class="game_button_read_more">Read more...</button>
-
-    <!-- Read More Section -->
-    <div id="more_race_editor" class="game_read_more">
-        <p class="game_body">The JSON Level Editor is a tool made using Windows Presentation Form (WPF) to modify a JSON file used to load a race in the <a href="#RayLib_Race_Creator" class="game_link">RayLib Race Creator</a>. It allows level designers to create a new racetrack and modify them through a visual interface without having to code anything. The level editor has a number of features that gives a lot of flexibility to level designers to tweak aspects of racetrack such as the position, mesh, textures and number of checkpoints using the interactive UI.</p>
-        <p class="game_body">Moreover, the tool can also add AI racers into the race by simply clicking a button, and the difficulty of each AI racers can be easily tweaked in the same panel. All this information is displayed in a 3D viewport which responds to the changes in real-time, similar to the scene view in Unity.</p>
-        <p class="game_body">Prior to this project, I had no experience in creating a Windows application. However, I managed to finish the entire level editor within 5 days by doing a lot of research and self-study.</p>
-        <p class="game_body">More information regarding this tool can be found in the <a class="text_bold">WPF Level Editor</a> section (Page 7) within the <a href="https://drive.google.com/file/d/1Q_9QjbVKZhqRwVOD7_r1lmmlruCbvKvv/view?usp=share_link" target="_blank" class="game_link">Report Document</a>.</p>
-
-        <!-- Screenshots -->
-        <div class="slideshow_container slideshow_width">
-            <div class="mySlides_raceEditor">
-                <img src="Images/Race_Editor/Editor.png" alt="Title" class="slide_image">
-            </div>
-            <div class="mySlides_raceEditor">
-                <img src="Images/Race_Editor/Race.png" alt="Character Select" class="slide_image">
-            </div>
-            <div class="mySlides_raceEditor">
-                <img src="Images/Race_Editor/Checkpoints.png" alt="Gameplay" class="slide_image">
-            </div>
-            <div class="mySlides_raceEditor">
-                <img src="Images/Race_Editor/Bots.png" alt="Gameplay" class="slide_image">
-            </div>
-
-            <a class="prev" onclick="plusSlides(-1, 3)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1, 3)">&#10095;</a>
-        </div>
-        <div style="text-align:center">
-            <span class="dot dot_raceEditor" onclick="goToSlide(1, 3)"></span>
-            <span class="dot dot_raceEditor" onclick="goToSlide(2, 3)"></span>
-            <span class="dot dot_raceEditor" onclick="goToSlide(3, 3)"></span>
-            <span class="dot dot_raceEditor" onclick="goToSlide(4, 3)"></span>
-        </div>
-
-        <!-- Git Button -->
-        <form action="https://github.com/ElvinNicholson/Race-Level-Editor.git" method="get" target="_blank" class="display_inline_block">
-            <button class="game_button game_button_git">
-                GitHub
-                <img src="Images/github-mark.svg" alt="GitHub" class="game_button_image">
-            </button>
-        </form>
-
-        <!-- YouTube Button -->
-        <form action="https://youtu.be/4vfhRrgaSJ0" method="get" target="_blank" class="display_inline_block">
-            <button class="game_button game_button_youtube">
-                YouTube
-                <img src="Images/youtube_social_icon_dark.png" alt="YouTube" class="game_button_image">
-            </button>
-        </form>
-
-        <!-- Documents Button -->
-        <form action="https://drive.google.com/file/d/1Q_9QjbVKZhqRwVOD7_r1lmmlruCbvKvv/view?usp=share_link" method="get" target="_blank" class="display_inline_block">
-            <button class="game_button game_button_normal">
-                Technical Report
-            </button>
-        </form>
-    </div>
-</div>
-
-<!-- Afterlife Unity -->
-<div class="custom_border align_center">
-    <img src="Images/Afterlife_Unity/Thumbnail.png" alt="Afterlife Unity" class="game_image">
-    <div class="game_header col-8">Afterlife in Unity</div>
-    <div class="game_box">C#</div>
-    <div class="game_box">Unity</div>
-    <div class="game_subheader">A Unity rapid alpha build of the
-        <a href="https://store.steampowered.com/app/557240/Afterlife/" target="_blank" class="game_link">Afterlife</a>
-        game originally made by LucasArts, published on 1996.</div>
-    <button id="button_afterlife_unity" class="game_button_read_more">Read more...</button>
-
-    <!-- Read More Section -->
-    <div id="more_afterlife_unity" class="game_read_more">
-        <p class="game_body">Afterlife in Unity is a recreation of the Afterlife game made by LucasArts made in 2 weeks with a team of 6 people as a university project. The aim of the project is to create a rapid alpha build of the game in Unity as a preparation for porting it to DirectX 11. Essentially, Afterlife is an isometric city builder, but you are managing both heaven and hell which have different requirements to earn the most amount of money.</p>
-        <p class="game_body">In this project, I was responsible for creating the entire building system and the functionalities for the buildings. The building system consists of the tilemaps for both planes, how the player interacts with the map, the zone systems, and the making the road sprites automatically adjust themselves accordingly when other roads around them are added or removed.</p>
-
-        <!-- Screenshots -->
-        <div class="slideshow_container slideshow_width">
-            <div class="mySlides_afterlifeUnity">
-                <img src="Images/Afterlife_Unity/Heaven.png" alt="Title" class="slide_image">
-            </div>
-            <div class="mySlides_afterlifeUnity">
-                <img src="Images/Afterlife_Unity/Hell.png" alt="Character Select" class="slide_image">
-            </div>
-            <div class="mySlides_afterlifeUnity">
-                <img src="Images/Afterlife_Unity/World.png" alt="Gameplay" class="slide_image">
-            </div>
-            <div class="mySlides_afterlifeUnity">
-                <img src="Images/Afterlife_Unity/UI.png" alt="Gameplay" class="slide_image">
-            </div>
-
-            <a class="prev" onclick="plusSlides(-1, 4)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1, 4)">&#10095;</a>
-        </div>
-        <div style="text-align:center">
-            <span class="dot dot_afterlifeUnity" onclick="goToSlide(1, 4)"></span>
-            <span class="dot dot_afterlifeUnity" onclick="goToSlide(2, 4)"></span>
-            <span class="dot dot_afterlifeUnity" onclick="goToSlide(3, 4)"></span>
-            <span class="dot dot_afterlifeUnity" onclick="goToSlide(4, 4)"></span>
-        </div>
-
-        <!-- Git Button -->
-        <form action="https://github.com/ItsSimons/Unity-Alpha-Group1.git" method="get" target="_blank" class="display_inline_block">
-            <button class="game_button game_button_git">
-                GitHub
-                <img src="Images/github-mark.svg" alt="GitHub" class="game_button_image">
-            </button>
-        </form>
-
-        <!-- YouTube Button -->
-        <form action="https://youtu.be/6hpvn9qKZH8" method="get" target="_blank" class="display_inline_block">
-            <button class="game_button game_button_youtube">
-                YouTube
-                <img src="Images/youtube_social_icon_dark.png" alt="YouTube" class="game_button_image">
-            </button>
-        </form>
-    </div>
-</div>
-
 <!-- Afterlife DirectX -->
+<a class="anchor" id="AfterlifeDirectX"></a>
 <div class="custom_border align_center">
     <img src="Images/Afterlife_DirectX/Thumbnail.png" alt="Afterlife DirectX" class="game_image">
     <div class="game_header col-8">Afterlife in DirectX 11</div>
@@ -767,7 +463,320 @@
     </div>
 </div>
 
+<!-- Afterlife Unity -->
+<a class="anchor" id="AfterlifeUnity"></a>
+<div class="custom_border align_center">
+    <img src="Images/Afterlife_Unity/Thumbnail.png" alt="Afterlife Unity" class="game_image">
+    <div class="game_header col-8">Afterlife in Unity</div>
+    <div class="game_box">C#</div>
+    <div class="game_box">Unity</div>
+    <div class="game_subheader">A Unity rapid alpha build of the
+        <a href="https://store.steampowered.com/app/557240/Afterlife/" target="_blank" class="game_link">Afterlife</a>
+        game originally made by LucasArts, published on 1996.</div>
+    <button id="button_afterlife_unity" class="game_button_read_more">Read more...</button>
+
+    <!-- Read More Section -->
+    <div id="more_afterlife_unity" class="game_read_more">
+        <p class="game_body">Afterlife in Unity is a recreation of the Afterlife game made by LucasArts made in 2 weeks with a team of 6 people as a university project. The aim of the project is to create a rapid alpha build of the game in Unity as a preparation for porting it to DirectX 11. Essentially, Afterlife is an isometric city builder, but you are managing both heaven and hell which have different requirements to earn the most amount of money.</p>
+        <p class="game_body">In this project, I was responsible for creating the entire building system and the functionalities for the buildings. The building system consists of the tilemaps for both planes, how the player interacts with the map, the zone systems, and the making the road sprites automatically adjust themselves accordingly when other roads around them are added or removed.</p>
+
+        <!-- Screenshots -->
+        <div class="slideshow_container slideshow_width">
+            <div class="mySlides_afterlifeUnity">
+                <img src="Images/Afterlife_Unity/Heaven.png" alt="Title" class="slide_image">
+            </div>
+            <div class="mySlides_afterlifeUnity">
+                <img src="Images/Afterlife_Unity/Hell.png" alt="Character Select" class="slide_image">
+            </div>
+            <div class="mySlides_afterlifeUnity">
+                <img src="Images/Afterlife_Unity/World.png" alt="Gameplay" class="slide_image">
+            </div>
+            <div class="mySlides_afterlifeUnity">
+                <img src="Images/Afterlife_Unity/UI.png" alt="Gameplay" class="slide_image">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1, 4)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 4)">&#10095;</a>
+        </div>
+        <div style="text-align:center">
+            <span class="dot dot_afterlifeUnity" onclick="goToSlide(1, 4)"></span>
+            <span class="dot dot_afterlifeUnity" onclick="goToSlide(2, 4)"></span>
+            <span class="dot dot_afterlifeUnity" onclick="goToSlide(3, 4)"></span>
+            <span class="dot dot_afterlifeUnity" onclick="goToSlide(4, 4)"></span>
+        </div>
+
+        <!-- Git Button -->
+        <form action="https://github.com/ItsSimons/Unity-Alpha-Group1.git" method="get" target="_blank" class="display_inline_block">
+            <button class="game_button game_button_git">
+                GitHub
+                <img src="Images/github-mark.svg" alt="GitHub" class="game_button_image">
+            </button>
+        </form>
+
+        <!-- YouTube Button -->
+        <form action="https://youtu.be/6hpvn9qKZH8" method="get" target="_blank" class="display_inline_block">
+            <button class="game_button game_button_youtube">
+                YouTube
+                <img src="Images/youtube_social_icon_dark.png" alt="YouTube" class="game_button_image">
+            </button>
+        </form>
+    </div>
+</div>
+
+<!-- TicTako -->
+<a class="anchor" id="TicTako"></a>
+<div class="custom_border align_center">
+    <img src="Images/TicTako/TicTako.png" alt="TicTako" class="game_image">
+    <div class="game_header col-8">TicTako</div>
+    <div class="game_box">C#</div>
+    <div class="game_box">Unity</div>
+    <div class="game_box">WebGL</div>
+    <div class="game_subheader">A Tic-Tac-Toe fan game of the VTuber group Hololive EN, also the first game I have ever released.</div>
+    <button id="button_tictako" class="game_button_read_more">Read more...</button>
+
+    <!-- Read More Section -->
+    <div id="more_tictako" class="game_read_more">
+        <p class="game_body">TicTako is a classic Tic-Tac-Toe game themed around the popular VTuber group Hololive EN. This was the first ever game I have ever published and is also my introduction to game programming. The game was finished a month after I started development, and I did a lot of research and self-study regarding Unity, C#, and the algorithm used for the AI in the game.</p>
+        <p class="game_body">TikTako can be played solo against an AI that uses the minimax algorithm to determine its best move, and I added some shortcut within the algorithm to significantly reduce the time it takes to calculate. The game can also be played by two players through local multiplayer. All the assets within the game are fully hand-drawn by me, with a lot of animated elements.</p>
+        <p class="game_body">The game was published back on the 4th of August 2021, and within the first week of its release on itch io, it garnered over 1,400 plays. After its initial release, the game has been getting a steady number of players, and as of 2023, it has been played over 3,000 times.</p>
+
+        <!-- Screenshots -->
+        <div class="slideshow_container slideshow_width">
+            <div class="mySlides_tictako">
+                <img src="Images/TicTako/Title.png" alt="Title" class="slide_image">
+            </div>
+            <div class="mySlides_tictako">
+                <img src="Images/TicTako/Select.png" alt="Character Select" class="slide_image">
+            </div>
+            <div class="mySlides_tictako">
+                <img src="Images/TicTako/Gameplay.png" alt="Gameplay" class="slide_image">
+            </div>
+            <div class="mySlides_tictako">
+                <img src="Images/TicTako/Win.png" alt="Game Over" class="slide_image">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+        </div>
+        <div style="text-align:center">
+            <span class="dot dot_tictako" onclick="goToSlide(1, 0)"></span>
+            <span class="dot dot_tictako" onclick="goToSlide(2, 0)"></span>
+            <span class="dot dot_tictako" onclick="goToSlide(3, 0)"></span>
+            <span class="dot dot_tictako" onclick="goToSlide(4, 0)"></span>
+        </div>
+
+        <!-- Itch.Io Button -->
+        <form action="https://salty-pizza.itch.io/tictako" method="get" target="_blank" class="display_inline_block">
+            <button class="game_button game_button_itch">
+                itch.io
+                <img src="Images/itchio-textless-white.svg" alt="Itch.IO" class="game_button_image">
+            </button>
+        </form>
+
+
+    </div>
+</div>
+
+<!-- Race Unity -->
+<a class="anchor" id="RaceUnity"></a>
+<div class="custom_border align_center">
+    <img src="Images/Race_Unity/Thumbnail.png" alt="Race Creator Unity" class="game_image">
+    <div class="game_header col-8">Unity Race Creator</div>
+    <div class="game_box">C#</div>
+    <div class="game_box">Unity</div>
+    <div class="game_subheader">A designer facing tool that allows for the creation of a racing system within Unity without having to code anything.</div>
+    <button id="button_race_unity" class="game_button_read_more">Read more...</button>
+
+    <!-- Read More Section -->
+    <div id="more_race_unity" class="game_read_more">
+        <p class="game_body">The Unity Race Creator is a designer facing tool created within Unity which allows designers with no programming knowledge to create and modify a racetrack on a pre-existing game world. This was achieved by utilizing the custom window feature within the Unity engine. The Race Creator custom window has a number of options that is used to initialize the race, such as the number of checkpoints and the timer settings.</p>
+        <p class="game_body">These values and more customization features can be found from the custom inspector that appears when selecting the race game object created by the Race Creator. Level designers can easily change the mesh, texture, and manage each checkpoint from this custom inspector without having to do any coding.</p>
+        <p class="game_body">The Unity Race Creator also comes with a standard UI which displays crucial information such as the timer, lap counter, minimap and a waypoint to the next gate. All these values are stored in a separate class from the core racing system so a UI designer can easily use these values to create their own UI without having to interact with the source code of the game. The files of the project follows the structure of a Unity custom package, so it can be easily distributed to other computers or Unity projects.</p>
+        <p class="game_body">For more information regarding this project, please refer to the <a class="text_bold">Unity Implementation</a> section (Page 4) within the <a href="https://drive.google.com/file/d/1Q_9QjbVKZhqRwVOD7_r1lmmlruCbvKvv/view?usp=share_link" target="_blank" class="game_link">Report Document</a>.</p>
+
+        <!-- Screenshots -->
+        <div class="slideshow_container slideshow_width">
+            <div class="mySlides_raceUnity">
+                <img src="Images/Race_Unity/Scene.png" alt="Title" class="slide_image">
+            </div>
+            <div class="mySlides_raceUnity">
+                <img src="Images/Race_Unity/Gameplay.png" alt="Character Select" class="slide_image">
+            </div>
+            <div class="mySlides_raceUnity">
+                <img src="Images/Race_Unity/Inspector.png" alt="Gameplay" class="slide_image">
+            </div>
+            <div class="mySlides_raceUnity">
+                <img src="Images/Race_Unity/Custom_Window.png" alt="Game Over" class="slide_image">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+        </div>
+        <div style="text-align:center">
+            <span class="dot dot_raceUnity" onclick="goToSlide(1, 1)"></span>
+            <span class="dot dot_raceUnity" onclick="goToSlide(2, 1)"></span>
+            <span class="dot dot_raceUnity" onclick="goToSlide(3, 1)"></span>
+            <span class="dot dot_raceUnity" onclick="goToSlide(4, 1)"></span>
+        </div>
+
+        <!-- Git Button -->
+        <form action="https://github.com/ElvinNicholson/GEA-Unity-Race.git" method="get" target="_blank" class="display_inline_block">
+            <button class="game_button game_button_git">
+                GitHub
+                <img src="Images/github-mark.svg" alt="GitHub" class="game_button_image">
+            </button>
+        </form>
+
+        <!-- YouTube Button -->
+        <form action="https://youtu.be/fpi95WXfrsg" method="get" target="_blank" class="display_inline_block">
+            <button class="game_button game_button_youtube">
+                YouTube
+                <img src="Images/youtube_social_icon_dark.png" alt="YouTube" class="game_button_image">
+            </button>
+        </form>
+
+        <!-- Documents Button -->
+        <form action="https://drive.google.com/file/d/1Q_9QjbVKZhqRwVOD7_r1lmmlruCbvKvv/view?usp=share_link" method="get" target="_blank" class="display_inline_block">
+            <button class="game_button game_button_normal">
+                Report Document
+            </button>
+        </form>
+    </div>
+</div>
+
+<!-- Race RayLib -->
+<a class="anchor" id="RaceRayLib"></a>
+<div class="custom_border align_center">
+    <img src="Images/Race_RayLib/Thumbnail.png" alt="Race Creator RayLib" class="game_image">
+    <div class="game_header col-8">RayLib Race Creator</div>
+    <div class="game_box">C++</div>
+    <div class="game_box">RayLib</div>
+    <div class="game_subheader">A system that allows for the creation of a racing system within RayLib that only requires minimal programming experience.</div>
+    <button id="button_race_raylib" class="game_button_read_more">Read more...</button>
+
+    <!-- Read More Section -->
+    <div id="more_race_raylib" class="game_read_more">
+        <p class="game_body">The RayLib Race Creator is similar to the Unity Race Creator, but its built on RayLib. RayLib is a low-level game engine with no interface, visual helpers, or editors like Unity, so everything in RayLib is done through C++ scripting. The biggest challenge of this project was creating an easy-to-use environment for level designers to create and modify a race without having to interact with the source code of the game. To tackle this problem, the <a href="#JSON_Level_Editor" class="game_link">JSON Level Editor</a> was made using Windows Presentation Foundation (WPF).</p>
+        <p class="game_body">Because RayLib has less features than Unity, I had to create my own system in order to replicate the features present within the Unity Race Creator. For example, a combination of linear and trigonometric equations was used to display the waypoint to the next checkpoint correctly. A similar system is also used in the pathfinding algorithm of the AI racers present within the game. The AI racers can automatically progress throughout the race and compete against the player. These AI racers also has an adjustable difficulty that can be tweaked through the <a href="#JSON_Level_Editor" class="game_link">JSON Level Editor</a>.</p>
+        <p class="game_body">More information regarding the algorithm used for the AI can be found in the <a class="text_bold">Racing Bots</a> section (Page 10) within the <a href="https://drive.google.com/file/d/1Q_9QjbVKZhqRwVOD7_r1lmmlruCbvKvv/view?usp=share_link" target="_blank" class="game_link">Report Document</a>.</p>
+        <p class="game_body">Since the scripting for RayLib is done in C++, I had access to pointers so all the assets for the race are managed using smart pointers. Meshes and textures are only loaded once at the initialization of a level and a reference to them is shared to all the checkpoints to avoid each checkpoints having their own mesh and texture, which leads to significantly better optimization.</p>
+
+        <!-- Screenshots -->
+        <div class="slideshow_container slideshow_width">
+            <div class="mySlides_raceRaylib">
+                <img src="Images/Race_RayLib/Gameplay.png" alt="Title" class="slide_image">
+            </div>
+            <div class="mySlides_raceRaylib">
+                <img src="Images/Race_RayLib/Scoreboard.png" alt="Character Select" class="slide_image">
+            </div>
+            <div class="mySlides_raceRaylib">
+                <img src="Images/Race_RayLib/Level2.png" alt="Gameplay" class="slide_image">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+        </div>
+        <div style="text-align:center">
+            <span class="dot dot_raceRaylib" onclick="goToSlide(1, 2)"></span>
+            <span class="dot dot_raceRaylib" onclick="goToSlide(2, 2)"></span>
+            <span class="dot dot_raceRaylib" onclick="goToSlide(3, 2)"></span>
+        </div>
+
+        <!-- Git Button -->
+        <form action="https://github.com/ElvinNicholson/GEA-Raylib-Race.git" method="get" target="_blank" class="display_inline_block">
+            <button class="game_button game_button_git">
+                GitHub
+                <img src="Images/github-mark.svg" alt="GitHub" class="game_button_image">
+            </button>
+        </form>
+
+        <!-- YouTube Button -->
+        <form action="https://youtu.be/_8vnQRKcF40" method="get" target="_blank" class="display_inline_block">
+            <button class="game_button game_button_youtube">
+                YouTube
+                <img src="Images/youtube_social_icon_dark.png" alt="YouTube" class="game_button_image">
+            </button>
+        </form>
+
+        <!-- Documents Button -->
+        <form action="https://drive.google.com/file/d/1Q_9QjbVKZhqRwVOD7_r1lmmlruCbvKvv/view?usp=share_link" method="get" target="_blank" class="display_inline_block">
+            <button class="game_button game_button_normal">
+                Technical Report
+            </button>
+        </form>
+    </div>
+</div>
+
+<!-- JSON Level Editor -->
+<a class="anchor" id="RaceEditor"></a>
+<div class="custom_border align_center">
+    <img src="Images/Race_Editor/Thumbnail.png" alt="JSON Level Editor" class="game_image">
+    <div class="game_header col-8">JSON Level Editor</div>
+    <div class="game_box">C#</div>
+    <div class="game_box">XAML</div>
+    <div class="game_box">WPF</div>
+    <div class="game_subheader">An application made using WPF to easily create and modify a JSON file used for a game level through an interactive UI.</div>
+    <button id="button_race_editor" class="game_button_read_more">Read more...</button>
+
+    <!-- Read More Section -->
+    <div id="more_race_editor" class="game_read_more">
+        <p class="game_body">The JSON Level Editor is a tool made using Windows Presentation Form (WPF) to modify a JSON file used to load a race in the <a href="#RayLib_Race_Creator" class="game_link">RayLib Race Creator</a>. It allows level designers to create a new racetrack and modify them through a visual interface without having to code anything. The level editor has a number of features that gives a lot of flexibility to level designers to tweak aspects of racetrack such as the position, mesh, textures and number of checkpoints using the interactive UI.</p>
+        <p class="game_body">Moreover, the tool can also add AI racers into the race by simply clicking a button, and the difficulty of each AI racers can be easily tweaked in the same panel. All this information is displayed in a 3D viewport which responds to the changes in real-time, similar to the scene view in Unity.</p>
+        <p class="game_body">Prior to this project, I had no experience in creating a Windows application. However, I managed to finish the entire level editor within 5 days by doing a lot of research and self-study.</p>
+        <p class="game_body">More information regarding this tool can be found in the <a class="text_bold">WPF Level Editor</a> section (Page 7) within the <a href="https://drive.google.com/file/d/1Q_9QjbVKZhqRwVOD7_r1lmmlruCbvKvv/view?usp=share_link" target="_blank" class="game_link">Report Document</a>.</p>
+
+        <!-- Screenshots -->
+        <div class="slideshow_container slideshow_width">
+            <div class="mySlides_raceEditor">
+                <img src="Images/Race_Editor/Editor.png" alt="Title" class="slide_image">
+            </div>
+            <div class="mySlides_raceEditor">
+                <img src="Images/Race_Editor/Race.png" alt="Character Select" class="slide_image">
+            </div>
+            <div class="mySlides_raceEditor">
+                <img src="Images/Race_Editor/Checkpoints.png" alt="Gameplay" class="slide_image">
+            </div>
+            <div class="mySlides_raceEditor">
+                <img src="Images/Race_Editor/Bots.png" alt="Gameplay" class="slide_image">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1, 3)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 3)">&#10095;</a>
+        </div>
+        <div style="text-align:center">
+            <span class="dot dot_raceEditor" onclick="goToSlide(1, 3)"></span>
+            <span class="dot dot_raceEditor" onclick="goToSlide(2, 3)"></span>
+            <span class="dot dot_raceEditor" onclick="goToSlide(3, 3)"></span>
+            <span class="dot dot_raceEditor" onclick="goToSlide(4, 3)"></span>
+        </div>
+
+        <!-- Git Button -->
+        <form action="https://github.com/ElvinNicholson/Race-Level-Editor.git" method="get" target="_blank" class="display_inline_block">
+            <button class="game_button game_button_git">
+                GitHub
+                <img src="Images/github-mark.svg" alt="GitHub" class="game_button_image">
+            </button>
+        </form>
+
+        <!-- YouTube Button -->
+        <form action="https://youtu.be/4vfhRrgaSJ0" method="get" target="_blank" class="display_inline_block">
+            <button class="game_button game_button_youtube">
+                YouTube
+                <img src="Images/youtube_social_icon_dark.png" alt="YouTube" class="game_button_image">
+            </button>
+        </form>
+
+        <!-- Documents Button -->
+        <form action="https://drive.google.com/file/d/1Q_9QjbVKZhqRwVOD7_r1lmmlruCbvKvv/view?usp=share_link" method="get" target="_blank" class="display_inline_block">
+            <button class="game_button game_button_normal">
+                Technical Report
+            </button>
+        </form>
+    </div>
+</div>
+
 <!-- Get Therapy -->
+<a class="anchor" id="GetTherapy"></a>
 <div class="custom_border align_center">
     <img src="Images/GetTherapy/Thumbnail.png" alt="Platformer" class="game_image">
     <div class="game_header col-8">Get Therapy</div>
@@ -836,6 +845,7 @@
 </div>
 
 <!-- Shuttered Minds -->
+<a class="anchor" id="ShutteredMinds"></a>
 <div class="custom_border align_center">
     <img src="Images/ShutteredMinds/Thumbnail.png" alt="ShutteredMinds" class="game_image">
     <div class="game_header col-8">Shuttered Minds</div>
@@ -903,6 +913,7 @@
 </div>
 
 <!-- Boss Beater -->
+<a class="anchor" id="BossBeater"></a>
 <div class="custom_border align_center">
     <img src="Images/BossBeater/Thumbnail.png" alt="Boss Beater" class="game_image">
     <div class="game_header col-8">Boss Beater</div>
@@ -969,6 +980,7 @@
 </div>
 
 <!-- Pacman -->
+<a class="anchor" id="Pacman"></a>
 <div class="custom_border align_center">
     <img src="Images/Pacman/Thumbnail.png" alt="PacMan" class="game_image">
     <div class="game_header col-8">PacMan in C++</div>
@@ -1026,6 +1038,7 @@
 </div>
 
 <!-- Platformer -->
+<a class="anchor" id="FrogJump"></a>
 <div class="custom_border align_center">
     <img src="Images/Platformer/Thumbnail.png" alt="Platformer" class="game_image">
     <div class="game_header col-8">Frog Jump</div>
@@ -1089,6 +1102,7 @@
 </div>
 
 <!-- Chatroom -->
+<a class="anchor" id="Biscord"></a>
 <div class="custom_border align_center">
     <img src="Images/Chatroom/Thumbnail.png" alt="Platformer" class="game_image">
     <div class="game_header col-8">Chatroom in C++</div>
