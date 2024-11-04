@@ -277,6 +277,18 @@ a.anchor {
     color: #fa5c5c;
 }
 
+.game_button_steam {
+    border: 2px solid #1b2838;
+    background: #1b2838;
+
+    color: white;
+}
+
+.game_button_steam:hover {
+    background: white;
+    color: #1b2838;
+}
+
 .game_button_git {
     border: 2px solid #171515;
     background: #171515;
@@ -333,6 +345,10 @@ a.anchor {
 
 .game_button_itch:hover .game_button_image {
     filter: invert(54%) sepia(81%) saturate(2977%) hue-rotate(325deg) brightness(100%) contrast(95%);
+}
+
+.game_button_steam:hover .game_button_image {
+    filter: invert(11%) sepia(12%) saturate(2515%) hue-rotate(173deg) brightness(96%) contrast(88%);
 }
 
 .game_button_git:hover .game_button_image {
